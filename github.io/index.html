@@ -2,16 +2,83 @@
 <html lang="en">
 <!--- ***** Head ***** --->
 <head>
-<!---- Basic Meta-tags and Scripts for the header ---->
-	<title>24/7 Live Maintence</title>
-<!-- <title>RKenneybrew on GitHub</title> -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!---- End of Basic Meta-tags and Scripts for the header ---->
-	<!-- NavBar Style -->
+<title>RKenneybrew on GitHub</title>
+    <!---- Basic Meta-tags and Scripts for the header ---->
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!---- End of Basic Meta-tags and Scripts for the header ---->
+    <!-- Top NavBar Style -->
+    <style>
+* {box-sizing: border-box;}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float:left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+    <!-- End of Top NavBar Style -->
+	<!-- Left NavBar Style -->
 	<style>
 body {
 	margin: 0;
@@ -76,83 +143,85 @@ body {
   .sidebar a {font-size: 18px;}
 }
 </style>
-	<!-- End of NavBar Style -->
-	<!-- Style Page -->
-	<style>
- ul{
- margin: 200px;
- }
- ul li{
- list-style-type: none;
- float: left;
- font-size: 20px;
- text-transform: capitalize;
- }
- ul li a{
- text-decoration: none;
- color: white;
- background-color: black;
- padding: 25px;
- margin: 2px;
- }
- </style>
-	<!-- End of Style Page -->
+	<!-- End of Left NavBar Style -->
+    <!---- ****** Maintenance ****** ---->
+    <!-- #Maintenance <div class="jumbotron text-center">
+  <h1>RKenneybrew on GitHub</h1>
+  <p>24/7 Live Maintenance</p>
+</div> #Maintenance -->
+
+    <div class="jumbotron text-center">
+        <h1><b>RKenneybrew on GitHub</b></h1>
+        <p>24/7 Live Maintenance</p>
+    </div>
+    <!---- ****** End of Maintenance ****** ---->
+
 </head>
 <!--- ***** End of Head ***** --->
 <!--- ***** Body ***** --->	
 <body>
-	<!-- <!-- Page List 
-	<ul>
- <li>
- <a href="./home.html">
- Home
- </a>
- </li>
-		
- <li>
- <a href="./about.html">
- About
- </a>
- </li>
-		
- <li>
- <a href="./services.html">
- Services
- </a>
- </li>
-		
- <li>
- <a href="./faqs.html">
- FAQs
- </a>
- </li>
-	</ul>
-	End of Page List -->
-<!-- #Maintenance <div class="jumbotron text-center">
-  <h1>RKenneybrew on GitHub</h1>
-  <p>24/7 Live Maintenance</p> 
-</div> #Maintenance -->
-	<div class="jumbotron text-center">
-		<h1><b>RKenneybrew on GitHub</b></h1>
-		<p>24/7 Live Maintenance</p>
-	</div>
+    <!---- NavBar Menu Top ---->
+    <div class="navbar">
+        <a href="#home">DEMO</a> 
+        <div class="subnav">
+           <!-- <button class="subnavbtn">DEMO<i class="fa fa-caret-down"></i></button> -->
+        <div class="subnav-content">
+            <a href="#company">demo</a>
+            <a href="#team">demo</a>
+            <a href="#careers">demo</a>
+        </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">DEMO 2<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#company">demo</a>
+                <a href="#team">demo</a>
+                <a href="#careers">demo</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">DEMO 3<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#bring">demo</a>
+                <a href="#deliver">demo</a>
+                <a href="#package">demo</a>
+                <a href="#express">demo</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">DEMO 4<i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="#link1">demo</a>
+                <a href="#link2">demo</a>
+                <a href="#link3">demo</a>
+                <a href="#link4">demo</a>
+            </div>
+        </div>
+        <a href="#contact">DEMO 5</a>
+    </div>
+
+    <div style="padding:0 16px">
+        <!--  <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
+        <p>Hover over the "about", "services" or "partners" link to see the sub navigation menu.</p> -->
+    </div>
+    <!---- End of NavBar Menu Top ---->
 <!---- SideBar ---->
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="./home.html">Home</a>
-  <a href="./about.html">About</a>
-  <a href="./services.html">Services</a>
-  <a href="./faqs.html">FAQs</a>
+  <a href="./github.io/home.html">Home</a>
+  <a href="./github.io/about.html">About</a>
+  <a href="./github.io/services.html">Services</a>
+  <a href="./github.io/faqs.html">FAQs</a>
 </div>
 <!---- End of SideBar ---->
 <!---- Collasped SideBar ---->
 	<div id="main">
   <button class="openbtn" onclick="openNav()">☰ Menu</button>  
-  <h2></h2>
-  <p></p>
+  <!-- <h2></h2>
+  <p></p> -->
 </div>
 <!---- End of Collasped SideBar ---->
-<!---- OpenNav Script (function) ---->
+<!---- OpenNav Side Script (function) ---->
 <script>
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
@@ -164,9 +233,18 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 </script>
-<!---- End of OpenNav Script (function) ---->
+<!---- End of OpenNav Side Script (function) ---->
 </body>
 <!--- ***** End of Body ***** --->
+<!-- Embed -->
+<div class="container">
+    <!-- <h1></h1> -->
+    <!-- <p></p> -->
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pBy1zgt0XPc"></iframe>
+    </div>
+</div>
+<!-- End of Embed -->
 <!--- ***** Footer ***** --->
 <!--- *[EMPTY]* --->	
 <!--- ***** End of Footer ***** --->
