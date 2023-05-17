@@ -6,18 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b613766b-88ed-440b-8fbb-13d6b48b002b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/boo2c20b9e.js" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/boo2c20b9e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/boo5d73756d.css" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/boo5d73756d.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/dbot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/dbot.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/faqs.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/faqs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/jqu66bfaafc.js" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/jqu66bfaafc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/github.io/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hub/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
