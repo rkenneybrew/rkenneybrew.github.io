@@ -7,7 +7,18 @@
     <list default="true" id="b613766b-88ed-440b-8fbb-13d6b48b002b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hub.io/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/boo2c20b9e.js" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/boo2c20b9e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/boo5d73756d.css" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/boo5d73756d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/dbot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/dbot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/faqs.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/faqs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/jqu66bfaafc.js" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/jqu66bfaafc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +53,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/github.io" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hub.io" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
