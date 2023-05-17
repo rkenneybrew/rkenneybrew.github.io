@@ -5,19 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b613766b-88ed-440b-8fbb-13d6b48b002b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub.io/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/boo2c20b9e.js" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/boo2c20b9e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/boo5d73756d.css" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/boo5d73756d.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/dbot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/dbot.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/faqs.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/faqs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/jqu66bfaafc.js" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/jqu66bfaafc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.io/hub/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/boo2c20b9e.js" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/boo2c20b9e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/boo5d73756d.css" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/boo5d73756d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/dbot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/dbot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/faqs.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/faqs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/boo2c20b9e.js" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/boo2c20b9e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/boo5d73756d.css" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/boo5d73756d.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/dbot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/dbot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/faqs.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/faqs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/jqu66bfaafc.js" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/jqu66bfaafc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/hub/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/github/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/jqu66bfaafc.js" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/jqu66bfaafc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.io/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.io/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
