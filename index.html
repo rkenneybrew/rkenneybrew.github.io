@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!---- End of Basic Meta-tags and Scripts for the header ---->
     <!-- Top NavBar Style -->
-    <style>
+<style>
 * {box-sizing: border-box;}
 
 body {
@@ -26,7 +26,7 @@ body {
 
 .navbar a {
   float:left;
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -39,7 +39,7 @@ body {
 }
 
 .subnav .subnavbtn {
-  font-size: 16px;
+  font-size: 12px;
   border: none;
   outline: none;
   color: white;
@@ -79,7 +79,7 @@ body {
 </style>
     <!-- End of Top NavBar Style -->
 	<!-- Left NavBar Style -->
-	<style>
+<style>
 body {
 	margin: 0;
   font-family: "Aerial", Helvetica, sans-serif;
@@ -92,7 +92,7 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: overlay, #333333;
+  background-color: transparent: 25%: #333333;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -101,8 +101,8 @@ body {
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  font-size: 18px;
+  color: #f9f9f9f9;
   display: block;
   transition: 0.3s;
 }
@@ -144,17 +144,6 @@ body {
 }
 </style>
 	<!-- End of Left NavBar Style -->
-    <!---- ****** Maintenance ****** ---->
-    <!-- #Maintenance <div class="jumbotron text-center">
-  <h1>RKenneybrew on GitHub</h1>
-  <p>24/7 Live Maintenance</p>
-</div> #Maintenance -->
-
-    <div class="jumbotron text-center">
-        <h1><b>RKenneybrew on GitHub</b></h1>
-        <p>24/7 Live Maintenance</p>
-    </div>
-    <!---- ****** End of Maintenance ****** ---->
 <!---- ****** Footer Style ****** ---->
     <style>
 .footer {
@@ -168,12 +157,24 @@ body {
    text-align: center;
 }
 </style>
-    <!---- ****** End of Footer Style ****** ---->
+<!---- ****** End of Footer Style ****** ---->
 </head>
-<!--- ***** End of Head ***** --->
-<!--- ***** Body ***** --->	
-<body>
-    <!---- NavBar Menu Top ---->
+<!---- ****** End of Head ****** ---->
+<!---- ****** Header ****** ---->
+<header>
+	<!---- ****** Maintenance ****** ---->
+    <!-- #Maintenance <div class="jumbotron text-center">
+  <h1>RKenneybrew on GitHub</h1>
+  <p>24/7 Live Maintenance</p>
+</div> #Maintenance -->
+
+    <div class="jumbotron text-center">
+        <h1><b>RKenneybrew on GitHub</b></h1>
+        <p>24/7 Live Maintenance</p>
+    </div>
+<!---- ****** End of Maintenance ****** ---->
+
+	    <!---- NavBar Menu Top ---->
     <div class="navbar">
         <a href="#home">DEMO</a> 
         <div class="subnav">
@@ -212,7 +213,7 @@ body {
         </div>
         <a href="#contact">DEMO 5</a>
     </div>
-
+	
     <div style="padding:0 16px">
         <!-- <h3>Subnav/dropdown menu inside a Navigation Bar</h3> -->
     </div>
@@ -220,10 +221,10 @@ body {
     <!---- SideBar ---->
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="./pfm/">Home</a>
-        <a href="">About</a>
-        <a href="">Services</a>
-        <a href="">FAQs</a>
+        <a href="./pfm/">Platform</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">FAQs</a>
     </div>
     <!---- End of SideBar ---->
 <!---- Collasped SideBar ---->
@@ -233,6 +234,10 @@ body {
   <p></p> -->
 </div>
 <!---- End of Collasped SideBar ---->
+</header>
+<!---- ****** End of Header ****** ---->
+<!---- ****** Body ****** ---->	
+<body>
     <!-- Embed -->
     <div class="container">
         <!-- <h1></h1> -->
@@ -242,6 +247,16 @@ body {
         </div>
     </div>
     <!-- End of Embed -->
+</body>
+<!--- ***** End of Body ***** --->
+<!--- ***** Footer ***** --->
+<footer>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</footer>
+<!--- ***** End of Footer ***** --->
+<!--- ***** Scripts ***** --->
     <!---- OpenNav Side Script (function) ---->
 <script>
 function openNav() {
@@ -254,17 +269,6 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 </script>
-<!---- End of OpenNav Side Script (function) ---->
-</body>
-<!--- ***** End of Body ***** --->
-<!--- ***** Footer ***** --->
-<footer>
-    <div class="footer">
-        <p>Footer</p>
-    </div>
-</footer>
-<!--- ***** End of Footer ***** --->
-<!--- ***** Scripts ***** --->
-<!--- *[EMPTY]* --->	
+	<!---- End of OpenNav Side Script (function) ---->
 <!--- ***** End of Scripts ***** --->
 </html>
