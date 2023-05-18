@@ -1,0 +1,18 @@
+body { 
+	width: 800px; 
+	margin: 40px auto; 
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #333;
+	text-align: center;
+}
+.monitor {
+	color: #383838;
+	font-family: monospace;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 20px 0;
+	overflow-x: hidden;
+	text-align: left;
+	width: 750px;
+}
