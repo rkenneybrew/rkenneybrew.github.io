@@ -20,9 +20,37 @@ body {
   background-color: rgba(72,13,107,0.95);
 }
 
+.top-container {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #190023;
+  position: none;
+  z-index: 1;
 }
 
 .navbar a {
@@ -51,14 +79,14 @@ body {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: rgba (25,0,35,0.74);
+  background-color: rgba(118,91,255,0.55);
 }
 
 .subnav-content {
   display: none;
-  position: absolute;
+  position: fixed;
   left: 0;
-  background-color: red;
+  background-color: rgba(118,91,255,0.55);
   width: 100%;
   z-index: 1;
 }
@@ -76,7 +104,7 @@ body {
 
 .subnav:hover .subnav-content {
   display: block;
-}
+ }
 
 </style>
     <!-- End of Top NavBar Style -->
@@ -177,7 +205,7 @@ body {
 <!---- ****** End of Maintenance ****** ---->
 
 	    <!---- NavBar Menu Top ---->
-    <div class="navbar">
+    <div class="navbar" id="myHeader">
         <a href="./404.html/">DEMO</a> 
         <div class="subnav">
            <!-- <button class="subnavbtn">DEMO<i class="fa fa-caret-down"></i></button> -->
@@ -215,12 +243,8 @@ body {
         </div>
         <a href="./404.html/">DEMO 5</a>
     </div>
-	
-    <div style="padding:0 16px">
-        <!-- <h3>Subnav/dropdown menu inside a Navigation Bar</h3> -->
-    </div>
-    <!---- End of NavBar Menu Top ---->
-    <!---- SideBar ---->
+       <!---- End of NavBar Menu Top ---->
+       <!---- SideBar ---->
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="./pfm/">Platform</a>
@@ -231,8 +255,9 @@ body {
     <!---- End of SideBar ---->
 <!---- Collasped SideBar ---->
 <div id="main">
-  <button class="openbtn" onclick="openNav()">☰</button>  
-  <h2>Some Text</h2>
+  <button class="openbtn" onclick="openNav()">☰</button>
+<!---- ****** SOME TEXT ****** ---->
+  <!-- <h2>Some Text</h2>
   <p>What is Lorem Ipsum?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
@@ -241,10 +266,11 @@ It is a long established fact that a reader will be distracted by the readable c
 
 
 Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p> -->
+<!---- ****** END OF SOME TEXT ****** ----> 
 </div>
-<!---- End of Collasped SideBar ---->
-</header>
+ <!---- End of Collasped SideBar ---->
+ </header>
 		<!---- ****** End of Header ****** ---->
 </head>
 <!---- ****** End of Head ****** ---->
@@ -252,16 +278,14 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 <!---- ****** Body ****** ---->	
 <body>
     <!-- Embed -->
-<div class="center">
-    <div class="container">
+	<div class="container">
         <!-- <h1></h1> -->
         <!-- <p></p> -->
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pBy1zgt0XPc"></iframe>
         </div>
     </div>
-</div>
-    <!-- End of Embed -->
+<!-- End of Embed -->
 </body>
 <!--- ***** End of Body ***** --->
 <!--- ***** Footer ***** --->
@@ -275,6 +299,23 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 </footer>
 <!--- ***** End of Footer ***** --->
 <!--- ***** Scripts ***** --->
+<!-- Top NavBar Menu Script -->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("myHeader");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!-- End of Top NavBar Menu Script -->
     <!---- OpenNav Side Script (function) ---->
 <script>
 function openNav() {
