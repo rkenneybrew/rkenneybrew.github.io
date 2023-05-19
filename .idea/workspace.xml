@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/pfm/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/faqs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/faqs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.github/pfm/hub/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.github/pfm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/pfm/services.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +42,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io"
+    "last_opened_file_path": "/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io/.github"
   }
 }]]></component>
   <component name="RecentsManager">
