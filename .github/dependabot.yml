@@ -8,4 +8,4 @@ updates:
   - package-ecosystem: "npm, pub, pip, maven, gradle, gomod, github-actions, gitsubmodule, composer, bundler"
     directory: "/Users/rickeykenneybrew/Documents/GitHub/repository"
     schedule: 
-      interval: "daily"
+      interval: "weekly"
