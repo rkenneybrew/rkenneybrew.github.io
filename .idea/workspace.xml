@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/faqs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/hub/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/hub/faqs.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pfm/hub/home.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pfm/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pfm/hub/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/hub/services.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/services.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +39,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pfm/hub" />
     </key>
   </component>
