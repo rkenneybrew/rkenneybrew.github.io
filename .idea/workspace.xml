@@ -6,7 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/faqs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/hub/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/hub/faqs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/hub/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pfm/hub/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/hub/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/services.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +37,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pfm/hub" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
