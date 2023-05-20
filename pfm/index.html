@@ -3,6 +3,7 @@
 <!--- ***** Head ***** --->
 <head>
 <title>RKenneybrew | GitHub</title>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <!---- Basic Meta-tags and Scripts for the header ---->
     <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +11,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!---- End of Basic Meta-tags and Scripts for the header ---->
+    <!---- ****** Text Style ****** ---->
+	<style>
+		h1, h4, p1 {
+			color: #f9f9f9;
+			background-color: none;
+		}
+	</style>
+    <!---- ****** End of Text Style ****** ---->
     <!-- Top NavBar Style -->
 <style>
-* {box-sizing: border-box;}
+.jumbotron {box-sizing: border-box;}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -20,9 +29,33 @@ body {
   background-color: rgba(72,13,107,0.95);
 }
 
+ .header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #190023;
+  position: none;
+  z-index: 1;
+  margin: auto;
+	  
 }
 
 .navbar a {
@@ -51,14 +84,14 @@ body {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: rgba (25,0,35,0.74);
+  background-color: rgba(118,91,255,0.55);
 }
 
 .subnav-content {
   display: none;
-  position: absolute;
+  position: fixed;
   left: 0;
-  background-color: red;
+  background-color: rgba(118,91,255,0.55);
   width: 100%;
   z-index: 1;
 }
@@ -76,7 +109,7 @@ body {
 
 .subnav:hover .subnav-content {
   display: block;
-}
+ }
 
 </style>
     <!-- End of Top NavBar Style -->
@@ -155,13 +188,15 @@ body {
    left: 0;
    bottom: 0;
    width: 100%;
-   height: 6%;
+   height: 3.1%;
    background-color: #190023;
    color: white;
    text-align: center;
 }
 </style>
 <!---- ****** End of Footer Style ****** ---->
+</head>
+<!---- ****** End of Head ****** ---->
 		<!---- ****** Header ****** ---->
 <header>
 	<!---- ****** Maintenance ****** ---->
@@ -169,16 +204,14 @@ body {
   <h1>RKenneybrew on GitHub</h1>
   <p>24/7 Live Maintenance</p>
 </div> #Maintenance -->
-
     <div class="jumbotron text-center">
         <h1><b>RKenneybrew on GitHub</b></h1>
         <p>24/7 Live Maintenance</p>
     </div>
 <!---- ****** End of Maintenance ****** ---->
-
 	    <!---- NavBar Menu Top ---->
-    <div class="navbar">
-        <a href="./404.html/">DEMO</a> 
+    <div class="navbar" id="myHeader">
+        <a href="./404.html/">Front-Page</a>
         <div class="subnav">
            <!-- <button class="subnavbtn">DEMO<i class="fa fa-caret-down"></i></button> -->
         <div class="subnav-content">
@@ -215,66 +248,78 @@ body {
         </div>
         <a href="./404.html/">DEMO 5</a>
     </div>
-	
-    <div style="padding:0 16px">
-        <!-- <h3>Subnav/dropdown menu inside a Navigation Bar</h3> -->
-    </div>
-    <!---- End of NavBar Menu Top ---->
-    <!---- SideBar ---->
+       <!---- End of NavBar Menu Top ---->
+       <!---- SideBar ---->
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="./hub/">Hub</a>
+        <a href="/pfm/">Platform</a>
         <a href="./404.html/">About</a>
         <a href="./404.html/">Services</a>
         <a href="./404.html/">FAQs</a>
     </div>
     <!---- End of SideBar ---->
 <!---- Collasped SideBar ---->
-<div id="main">
-  <button class="openbtn" onclick="openNav()">☰</button>  
-  <h2>Some Text</h2>
-  <p>What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-
-Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-</div>
-<!---- End of Collasped SideBar ---->
-</header>
-		<!---- ****** End of Header ****** ---->
-</head>
-<!---- ****** End of Head ****** ---->
-
-<!---- ****** Body ****** ---->	
+ <div id="main">
+  	<button class="openbtn" onclick="openNav()">☰</button>
+ </div>
+ <!---- End of Collasped SideBar ---->
+ </header>
+  <!---- ****** End of Header ****** ---->
+  <!---- ****** Body ****** ---->
 <body>
     <!-- Embed -->
-<div class="center">
-    <div class="container">
-        <!-- <h1></h1> -->
+	<div class="container">
+		<div class="text-center"><h1><strong>"What is GitHub?"</strong></h1>
+		</div>
         <!-- <p></p> -->
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pBy1zgt0XPc"></iframe>
         </div>
     </div>
-</div>
-    <!-- End of Embed -->
+<!-- End of Embed -->
+	<!---- ****** SOME TEXT ****** ---->
+ 
+<blockquote>
+  <h1 class="text-center text-capitalize">&gt;&gt;&gt;&gt;&gt;&nbsp;<a>&nbsp;</a><strong><a href="https://github.com/signup">SIGN-UP</a></strong><a>&nbsp;</a>&lt;&lt;&lt;&lt;&lt;&nbsp;</h1>
+</blockquote>
+<h4>Cont'd, What is ¿GitHub? (click sign-up to bypass the introduction)&nbsp;</h4>
+<p1>What is Lorem Ipsum?
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  
+  Why do we use it?
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+  
+  
+  Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p1>
+<!---- ****** END OF SOME TEXT ****** ---->
 </body>
 <!--- ***** End of Body ***** --->
 <!--- ***** Footer ***** --->
 <footer>
-	
-    <div class="footer">
-		<div class="center">
+        <div class="footer">
         	<p>© 2023 RKenneybrew</p>
 		</div>
-    </div>
 </footer>
 <!--- ***** End of Footer ***** --->
 <!--- ***** Scripts ***** --->
+<!-- Top NavBar Menu Script -->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("myHeader");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!-- End of Top NavBar Menu Script -->
     <!---- OpenNav Side Script (function) ---->
 <script>
 function openNav() {
