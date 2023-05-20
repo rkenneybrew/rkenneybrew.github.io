@@ -22,8 +22,6 @@
     <!---- ****** End of Text Style ****** ---->
     <!-- Top NavBar Style -->
 <style>
-.jumbotron {box-sizing: border-box;}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -268,6 +266,15 @@ body {
   <!---- ****** End of Header ****** ---->
   <!---- ****** Body ****** ---->
 <body>
+<!-- Scroll and Shrink Header -->
+<div id="header">Header</div>
+<!-- <div style="margin-top:200px;padding:15px 15px 2500px;font-size:30px">
+    <p><b>This example demonstrates how to shrink a header when the user starts to scroll the page.</b></p>
+    <p>Scroll down this frame to see the effect!</p>
+    <p>Scroll to the top to remove the effect.</p>
+    <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div> -->
+<!-- End of Scroll and Shrink -->
     <!-- Embed -->
 	<div class="container">
 		<div class="text-center"><h1><strong>"What is GitHub?"</strong></h1>
@@ -279,9 +286,10 @@ body {
     </div>
 <!-- End of Embed -->
 	<!---- ****** SOME TEXT ****** ---->
-
-  <h4>Cont'd, What is ¿GitHub? (sign-up to bypass the introduction)&nbsp;</h4>
+<div class="container">
+  <h4>(sign-up to bypass the introduction)&nbsp;</h4>
   <h1 class="text-center text-capitalize">&gt;&gt;&gt;&gt;&gt;&nbsp;<a>&nbsp;</a><strong><a href="https://github.com/signup">SIGN-UP</a></strong><a>&nbsp;</a>&lt;&lt;&lt;&lt;&lt;&nbsp;</h1>
+</div>
 
 <!-- <p1>What is Lorem Ipsum?
   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -304,7 +312,9 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 <!--- ***** End of Footer ***** --->
 <!--- ***** Scripts ***** --->
 <!-- Top NavBar Menu Script -->
+<!-- Scroll/Shrink -->
 <script>
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("myHeader");
@@ -317,8 +327,9 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-</script>
 
+</script>
+<!-- End of Scroll/Shrink -->
 <!-- End of Top NavBar Menu Script -->
     <!---- OpenNav Side Script (function) ---->
 <script>
