@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/dbot.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dbot-1.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfm/dbot-2.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfm/hub/dbot-3.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/boo2c20b9e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/boo5d73756d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/dbot.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/boo2c20b9e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/boo5d73756d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/dbot.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/hub/jqu66bfaafc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/pfm/jqu66bfaafc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/dbot.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/hub/dbot.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pfm/hub/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pfm/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +23,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io/pfm/hub"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io/pfm/hub&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pfm/hub" />
