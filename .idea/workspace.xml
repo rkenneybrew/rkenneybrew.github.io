@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/github-mark-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/github-mark-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/.github/img/github-mark-white.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -54,6 +54,7 @@
       <recent name="$PROJECT_DIR$/.github" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github/img" />
       <recent name="$PROJECT_DIR$/.github" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pfm/hub" />
