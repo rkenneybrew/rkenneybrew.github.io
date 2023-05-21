@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/github-mark-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +24,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2Q0Me8gBG73yJyFiwPNwoOAa41K" />
   <component name="ProjectLevelVcsManager">
@@ -52,6 +54,7 @@
       <recent name="$PROJECT_DIR$/.github" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pfm/hub" />
     </key>
