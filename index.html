@@ -35,7 +35,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  border: double;
+  border: none;
   background-color: rgba(72,13,107,0.95);
 }
 
@@ -73,7 +73,7 @@ body {
   font-size: 12px;
   color: #f9f9f9;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
 }
 
@@ -94,16 +94,19 @@ body {
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: rgba(118,91,255,0.55);
+  background-color: rgb(118, 91, 255, 0.650);
+  position: none;
+  z-index: 1;
 }
 
 .subnav-content {
   display: none;
   position: fixed;
   left: 0;
-  background-color: rgba(118,91,255,0.55);
+  background-color: rgba(118, 91, 255, 0.650);
   width: 100%;
   z-index: 1;
+
 }
 
 .subnav-content a {
@@ -197,7 +200,6 @@ body {
         .container {
             margin: auto;
             padding: 20px 20px 20px 20px;
-            
         }
 </style>
     <!-- End of Style Text (below youtube video) -->
@@ -212,6 +214,7 @@ body {
    background-color: #190023;
    color: #f9f9f9;
    text-align: center;
+   padding: 50;
 }
 </style>
 <!---- ****** End of Footer Style ****** ---->
@@ -329,7 +332,8 @@ body {
     <!---- End of SideBar ---->
     <!---- Collasped SideBar ---->
     <div id="main">
-        <button class="openbtn" onclick="openNav()">☰</button>
+        <!-- <button class="openbtn" onclick="openNav()">☰</button> -->
+        <button class="openbtn" onclick="openNav()"> > </button>
     </div>
     <!---- End of Collasped SideBar ---->
 </header>
