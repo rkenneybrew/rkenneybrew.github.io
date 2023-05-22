@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pfm/bootstrap-4.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/hub/bootstrap-4.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/hub/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/hub/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/hub/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pfm/hub/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pfm/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io/pfm/hub&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;device.mirroring&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io/pfm/hub",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "device.mirroring"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pfm/hub" />
