@@ -20,7 +20,7 @@
 <!---- ****** CSS Style ****** ---->
 <!-- Text Style -->
 <style>
-        h1, h2, h4, hr, p, .footer, .navbar {
+        h1, h2, h4, hr, p, navbar {
             margin: 0;
             border: #765bff outset 2.1px;
             background-color: #1900239a;
@@ -28,10 +28,15 @@
             color: #f9f9f9;
             text-align: center;
 		}
-.section {
-}
 </style>
 <!---- ****** End of Text Style ****** ---->
+<style>
+    section {
+        padding: none;
+        margin: none;
+        border: none;
+    }
+</style>
 <!-- Top NavBar Style -->
 <style>
 body {
@@ -199,7 +204,7 @@ body {
 </style>
 <!-- End of Left NavBar Style -->
     <!-- Style Text (below youtube video) -->
-  <style>  
+<style>  
         .container {
             border: #765bff outset 2.1px;
             background-color: #1900239a;
@@ -212,6 +217,12 @@ body {
     <!-- End of Style Text (below youtube video) -->
 <!---- ****** Footer Style ****** ---->
 <style>
+    body {
+        padding: 0;
+        border: 0;
+        margin: 0;
+    }
+    
 .footer {
    position: fixed;
    left: 0;
@@ -221,18 +232,22 @@ body {
    background-color: #190023;
    color: #f9f9f9;
    text-align: center;
-   margin: 0;
-   border: #765bff outset 2.1px;
+   padding: 0px;
+   border: #765bff outset 0px;
+   margin: 0x;
 }
 </style>
 <!---- ****** End of Footer Style ****** ---->
 <!---- ****** End of CSS Style ****** ---->
 
-
+<!---- ****** Body ****** ---->
+<body>
+<section>
 <!---- ****** Header ****** ---->
 <header>
-    <section class="section">
-  <!-- Carousel -->
+    <section>
+        <!-- Carousel -->
+        <section class="section">  
   <div class="container mt-3">
       <div class="row">
           <div class="col-12">
@@ -277,20 +292,13 @@ body {
           </div>
       </div>
       <hr>
-  </div>  
-  <br>  
+ </div>  
+        </section>
   <!-- End of Carousel -->
     </section>
-  <!---- ****** Maintenance ****** ---->
-  <!-- #Maintenance <div class="jumbotron text-center">
- <h1>RKenneybrew on GitHub</h1>
- <p>24/7 Live Maintenance</p>
-</div> #Maintenance -->
-  <!-- <div class="jumbotron text-center" id="jumbotext">
-      <h1><b>RKenneybrew on GitHub</b></h1>
-      <p>24/7 Live Maintenance</p>
-  </div> -->
-  <!---- ****** End of Maintenance ****** ---->
+<section>
+<br>
+</section>
     <section>
   <!---- NavBar Menu Top ---->
   <div class="navbar" id="myHeader">
@@ -334,6 +342,7 @@ body {
   <!---- End of NavBar Menu Top ---->
     </section>
     <section>
+        <section>
   <!---- SideBar ---->
   <div id="mySidebar" class="sidebar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -343,28 +352,11 @@ body {
       <a href="./404.html/">FAQs</a>
   </div>
   <!---- End of SideBar ---->
-  <!---- Collasped SideBar ---->
-  <div id="main">
-      <button class="openbtn" onclick="openNav()">☰</button>
-  </div>
-  <!---- End of Collasped SideBar ---->
+        </section>
     </section>
-<!-- Scroll and Shrink Header -->
-<!-- <div id="header"></div>
-<div style="margin-top:200px;padding:15px 15px 2500px;font-size:30px">
-  <p><b>This example demonstrates how to shrink a header when the user starts to scroll the page.</b></p>
-  <p>Scroll down this frame to see the effect!</p>
-  <p>Scroll to the top to remove the effect.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div> -->
-<!-- End of Scroll and Shrink -->
 </header>
 <!---- ****** End of Header ****** ---->
 
-
-<!---- ****** Body ****** ---->
-<body>
-<!-- <div class="center"> -->
 <section>
     <!-- Embed -->
 	<div class="container">
@@ -376,30 +368,33 @@ body {
     </strong></h1>
 		</div>
   </div>
-
-  <br>
-
+</section>
+<section>
+<br>
+</section>
+<section>
   <div class="container">
      <div class="text-center">
         <div class="embed-responsive embed-responsive-16by9" >
-
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pBy1zgt0XPc " title="What is GitHub?"></iframe>
-  
-
         </div>
       </div>
     </div>
-
-      <br>
-
+</section>
+<section>
+<br>
+</section>
+<section>    
       <div class="container">                  
         <div class="text-center">
           <h4>&nbsp;(sign-up to bypass the introduction)&nbsp;</h4>
         </div>
       </div>
-
-      <br>
-
+</section>
+<section>
+<br>
+</section>
+<section>
     <div>
       <div>
         <div class="container">
@@ -407,39 +402,23 @@ body {
         </div>
       </div>
   </div>
-    <!-- End of Embed -->
 </section>
-
-	<!---- ****** SOME TEXT ****** ---->
-<!-- <p1>What is Lorem Ipsum?
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  
-  Why do we use it?
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-  
-  
-  Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p1> -->
-<!---- ****** END OF SOME TEXT ****** ---->
-
-<!-- <br> -->
+    <!-- End of Embed -->
+<section>
 <br>
-
-</body>
-<!--- ***** End of Body ***** --->
-
-
+</section>
 <!--- ***** Footer ***** --->
 <footer class="footer">
     <section>
-        <div class="footer">
-            <p>© 2023 RKenneybrew</p>
-        </div>
+            <div class="footer">
+                <p>© 2023 RKenneybrew</p>     
+            </div>
     </section>
 </footer>
 <!--- ***** End of Footer ***** --->
-
-
+</section>
+</body>
+<!--- ***** End of Body ***** --->
 
 <!--- ***** Scripts ***** --->
 <!-- Top NavBar Menu Script -->
