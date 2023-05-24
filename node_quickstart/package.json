@@ -18,7 +18,6 @@
     "webidl-conversions": "^7.0.0",
     "whatwg-url": "^11.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "rknode package handler"
   },
