@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"sourcesContent":["import './polyfills.ts';\n\n// @ts-ignore\nexport { default as satisfiesSemverSync } from './satisfiesSemverSync.ts';\n"],"names":["satisfiesSemverSync"],"mappings":"AAAA;;;;+BAGoBA,qBAAmB;;;eAAnBA,sBAAmB,QAAA;;;QAHhC,gBAAgB;0EAGwB,0BAA0B"}

@@ -1,0 +1,30 @@
+{
+  "name": "pkgin",
+  "description": "A Node.JS wrapper for pkgin specifically for SmartOS",
+  "version": "0.0.0",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "main": "./index.js",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahamas10/node-pkgin.git"
+  },
+  "scripts": {
+    "test": "for f in examples/*; do echo \"> $f\"; node \"$f\" || exit 1; echo; done; echo 'passed!'; exit 0"
+  },
+  "dependencies": {
+    "exec": "~0.0.6",
+    "strsplit": "~1.0.0"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "pkgin",
+    "smartos",
+    "illumos",
+    "joyent"
+  ]
+}
