@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b613766b-88ed-440b-8fbb-13d6b48b002b" name="Changes" comment="" />
+    <list default="true" id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pfm/bootstrap-4.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/hub/bootstrap-4.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/hub/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/hub/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/hub/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfm/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/hub/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pfm/hub/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pfm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pfm/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +26,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2PuRsDqhGDTQFnietNPAaW33GSt" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Q0Me8gBG73yJyFiwPNwoOAa41K" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -26,27 +45,38 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io"
+    "last_opened_file_path": "/Users/rickeykenneybrew/Documents/GitHub/repository/rkenneybrew.github.io/pfm/hub",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "device.mirroring"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pfm/hub" />
+      <recent name="$PROJECT_DIR$/pfm" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/github.io" />
+      <recent name="$PROJECT_DIR$/.github" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.github/img" />
+      <recent name="$PROJECT_DIR$/.github" />
+      <recent name="$PROJECT_DIR$/pfm/hub" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b613766b-88ed-440b-8fbb-13d6b48b002b" name="Changes" comment="" />
-      <created>1684305185929</created>
+      <changelist id="9479fd28-09c3-4827-ab61-7dde600f1f12" name="Changes" comment="" />
+      <created>1684486137990</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684305185929</updated>
+      <updated>1684486137990</updated>
     </task>
     <servers />
   </component>
@@ -60,5 +90,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
