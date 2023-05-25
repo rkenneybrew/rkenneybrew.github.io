@@ -1,8 +1,3 @@
-{
-  "name": "github-rk-pack",
-  "version": "9.6.7",
-  "description": "github npm package installer and handler for compiling bundles etc.",
-  "main": "index.js",
   "devDependencies": {},
   "scripts": {
     "test": "rk package on github"
