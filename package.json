@@ -1,58 +1,25 @@
 {
-  "dependencies": {
-    "create-index": "^2.6.0",
-    "daemon": "^1.1.0",
-    "explosion": "^0.0.9",
-    "express": "^4.18.2",
-    "express.js": "^1.0.0",
-    "firebase": "^9.22.0",
-    "homebrew": "^0.1.0",
-    "hosting": "^0.0.2",
-    "install": "^0.13.0",
-    "jekyll": "^3.0.0-beta1",
-    "lts": "^1.2.0",
-    "n": "^9.1.0",
-    "next.js": "^1.0.3",
-    "nextjs": "^0.0.3",
-    "node": "^20.2.0",
-    "node-bin-setup": "github:aredridel/node-bin-setup",
-    "node.js": "^0.0.1-security",
-    "nodejs": "^0.0.0",
-    "nodemon": "^2.0.22",
-    "nodenv": "^0.1.0",
-    "npm": "^9.6.7",
-<<<<<<< HEAD
-=======
-    "npx": "^10.2.2",
->>>>>>> e61c073df0feebdce8bd5cad2d04548cd1c5de2f
-    "nvm": "^0.0.4",
-    "nvs": "^0.5.2",
-    "pkgin": "^0.0.0",
-    "port": "^0.8.1",
-    "starter-kit": "^2.2.0",
-    "update": "^0.4.2"
-  },
-  "name": "starter-kit",
-  "description": "Node package Stater-Kit for web application developments (All NODE PACKAGES INCLUDED).",
+  "name": "github-rk-pack",
   "version": "9.6.7",
+  "description": "github npm package installer and handler for compiling bundles etc.",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "test": "starter-kit explosion"
+    "test": "rk package on github"
   },
   "repository": {
     "type": "git",
     "url": "rkenneybrew.github.io"
   },
   "keywords": [
+    "npm",
     "package",
-    "manager",
+    "github",
     "installer",
-    "package"
+    "manager",
+    "bundle",
+    "compiling"
   ],
-  "author": "Rickey Kenneybrew",
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "webpack": "^5.0.0-rc.6",
-    "webpack-cli": "^5.1.1"
-  }
+  "author": "239 Ricky Waters™",
+  "license": "ISC"
 }
