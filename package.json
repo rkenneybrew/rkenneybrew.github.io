@@ -11,13 +11,15 @@
     "jekyll": "^3.0.0-beta1",
     "lts": "^1.2.0",
     "n": "^9.1.0",
+    "next.js": "^1.0.3",
+    "nextjs": "^0.0.3",
     "node": "^20.2.0",
     "node.js": "^0.0.1-security",
     "nodejs": "^0.0.0",
     "nodemon": "^2.0.22",
     "nodenv": "^0.1.0",
     "npm": "^9.6.7",
-    "npx": "^10.2.2",
+    "npx": "^3.0.0",
     "nvm": "^0.0.4",
     "nvs": "^0.5.2",
     "pkgin": "^0.0.0",
@@ -42,5 +44,9 @@
     "package"
   ],
   "author": "Rickey Kenneybrew",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "webpack": "^5.0.0-rc.6",
+    "webpack-cli": "^5.1.1"
+  }
 }
