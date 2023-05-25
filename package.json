@@ -7,6 +7,7 @@
     "express.js": "^1.0.0",
     "firebase": "^9.22.0",
     "homebrew": "^0.1.0",
+    "hosting": "^0.0.2",
     "install": "^0.13.0",
     "jekyll": "^3.0.0-beta1",
     "lts": "^1.2.0",
