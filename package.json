@@ -1,0 +1,29 @@
+{
+  "name": "rkenneybrew.github.io",
+  "version": "9.6.7",
+  "description": "Node Package Manager with Homebrew, Firebase, Next.js, Webpack, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "github-rk pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rkenneybrew.github.io"
+  },
+  "keywords": [
+    "index.js",
+    "index",
+    ".json",
+    "package",
+    "file",
+    "github"
+  ],
+  "author": "239 Ricky Waters™",
+  "license": "ISC",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "n": "^9.1.0",
+    "npm": "^9.6.7",
+    "nvm": "^0.0.4"
+  }
+}
