@@ -52,6 +52,5 @@
     "ruby": "^0.6.1",
     "tools": "^0.0.0",
     "xml": "^1.0.1"
-  },
-  "devDependencies": {}
+  }
 }
