@@ -53,7 +53,7 @@
   },
   "extensions": {},
   "hosting": {
-    "public": "public",
+    "public": "public-fb",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -65,5 +65,11 @@
         "destination": "/index.html"
       }
     ]
+  },
+  "remoteconfig": {
+    "template": "remoteconfig.template.json"
+  },
+  "database": {
+    "rules": "database.rules.json"
   }
 }
