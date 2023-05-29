@@ -1,0 +1,22 @@
+{
+  "name": "app-rk-pm",
+  "version": "1.0.0",
+  "description": "package for json, app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "expose rk-app-pm",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rkenneybrew.github.io"
+  },
+  "keywords": [
+    "app",
+    "package",
+    ".json",
+    "github.io"
+  ],
+  "author": "239 Ricky Waters™",
+  "license": "ISC"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "rkenneybrew.github.io",
+  "name": "rk-pm",
   "version": "9.6.7",
   "description": "Node Package Manager with Homebrew, Firebase, Next.js, Webpack, and more.",
   "main": "index.js",
@@ -52,5 +52,6 @@
     "ruby": "^0.6.1",
     "tools": "^0.0.0",
     "xml": "^1.0.1"
-  }
+  },
+  "devDependencies": {}
 }
