@@ -53,7 +53,7 @@
   },
   "extensions": {},
   "hosting": {
-    "public": "public",
+    "public": "public-fb",
     "ignore": [
       "firebase.json",
       "**/.*",
