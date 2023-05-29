@@ -110,17 +110,17 @@
         
     </div> -->
       
-    <div>
+    <div class="SMedia">
         
-      <a href="./404.html/"><demo>
+      <a href="./404.html/">
           
           Social Media
           
-          </demo></a>
+       </a>
         
     </div>
     
-      <div>
+      <div class="Hosting">
           
       <a href="./404.html/"><demo>
           
@@ -130,7 +130,7 @@
           
     </div>
     
-     <div>
+     <div class="CNAME">
           
       <a href="./404.html/"><demo>
           
@@ -140,7 +140,7 @@
           
     </div>
 
-    <div>
+    <div class="Repo">
         
       <a href="./404.html/"><demo>
           
@@ -150,7 +150,7 @@
         
     </div>
       
-    <div>
+    <div class="PSetup">
         
       <a href="./404.html/"><demo>
           
@@ -161,50 +161,18 @@
     </div>
       
 </div>
-      <!-- <div class="subnav">
-          <button class="subnavbtn">DEMO<i class="fa fa-caret-down"></i></button>
-          <div class="subnav-content">
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-          </div>
-      </div> -->
-     <!-- <div class="subnav">
-          <button class="subnavbtn">DEMO 2<i class="fa fa-caret-down"></i></button>
-          <div class="subnav-content">
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-          </div>
-      </div> -->
-      <!-- <div class="subnav">
-          <button class="subnavbtn">DEMO 3<i class="fa fa-caret-down"></i></button>
-          <div class="subnav-content">
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-          </div>
-      </div> -->
-      <!-- <div class="subnav">
-          <button class="subnavbtn">DEMO 4<i class="fa fa-caret-down"></i></button>
-          <div class="subnav-content">
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-          </div>
-      </div> -->
   
-  <!---- End of NavBar Menu Top ---->
+<!---- End of NavBar Menu Top ---->
        
-            <!---- Collasped SideBar ---->
+<!---- Collasped SideBar ---->
+	
   <div id="main">
       <button class="openbtn" onclick="openNav()">☰</button>
   </div>
-  <!---- End of Collasped SideBar ---->
+
+<!---- End of Collasped SideBar ---->
        
-  <!---- SideBar ---->
+<!---- SideBar ---->
   <div id="mySidebar" class="sidebar">
       <u><p1>Menu</p1></u>
       
@@ -226,7 +194,7 @@
       <a href="./404.html/"><demo>What free service can I use for my backend?</demo></a>
       
   </div>
-  <!---- End of SideBar ---->
+<!---- End of SideBar ---->
 </header>
 <!---- ****** End of Header ****** ---->
 </head>
@@ -295,17 +263,8 @@
             font-size: 10px;
             
 		}
-    
-        {
-        
-        margin: 0px;
-        border: 0px;
-        padding: 0px;
-        color: #765bff;
-        
-        }
-
-        navbar {
+	
+		navbar {
             
             margin: 0px;
             border: #765bff outset 2.1px;
@@ -328,7 +287,7 @@
             
             
 		}
-    
+
 </style>
 <!---- ****** End of Text Style ****** ---->
 <style>
@@ -371,9 +330,9 @@ body {
   padding-top: 102px;
 }
 
-.navbar {
-    
-  font-size: auto;    
+ .navbar {
+  
+  width: 100%;
   overflow: hidden;
   background-color: #190023;
   position: none;
@@ -385,60 +344,75 @@ body {
 
 .navbar a {
 	
-  font-size: 15px;
+  width: 100%;
   float: left;
+  font-size: 100%;
   color: #f9f9f9;
   text-align: center;
-  padding: 14px 10px;
+  padding: 10px 4px;
   text-decoration: none;
 }
 
-.subnav {
-  float: left;
-  overflow: hidden;
+	
+ .navbar a:hover {
+  		background-color: rgb(118, 91, 255, 0.650);
+  		position: none;
+  		z-index: 1;
+} 
+
+	.SMedia {   
+		
+		width: 20%;
+		margin: none;
+		border: #765bff outset 2.1px;
+		padding: none;
+		
+	}
+		
+	.Hosting {
+		
+		width: 20%;
+		margin: none;
+		border: #765bff outset 2.1px;
+		padding: none;
+		
+	}
+	
+	.CNAME {
+		
+		width: 20%;
+		margin: none;
+		border: #765bff outset 2.1px;
+		padding: none;
+		
+	}
+	
+	.Repo {
+		
+		width: 20%;
+		margin: none;
+		border: #765bff outset 2.1px;
+		padding: none;
+		
+	}
+	
+	.PSetup {
+		
+		width: 20%;
+		margin: none;
+		border: #765bff outset 2.1px;
+		padding: none;
+		
+	}
+	
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: auto;
+  }
 }
-
-.subnav .subnavbtn {
-  font-size: 12px;
-  border: none;
-  outline: none;
-  color: #f9f9f9;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: rgb(118, 91, 255, 0.650);
-  position: none;
-  z-index: 1;
-}
-
-.subnav-content {
-  display: none;
-  position: fixed;
-  left: 0;
-  background-color: rgba(118, 91, 255, 0.650);
-  width: 100%;
-  z-index: 1;
-
-}
-
-.subnav-content a {
-  float: left;
-  color: #f9f9f9;
-  text-decoration: none;
-}
-
-.subnav-content a:hover {
-  background-color: #f9f9f9;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
- }
 
 </style>
     
