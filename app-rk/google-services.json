@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "350814581616",
+    "firebase_url": "https://fire-base006-default-rtdb.firebaseio.com",
+    "project_id": "fire-base006",
+    "storage_bucket": "fire-base006.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350814581616:android:56a81507c1796c6fc355b5",
+        "android_client_info": {
+          "package_name": "app.rkenneybrew.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350814581616-ulhu9uvt0ju306fbbc9pfsjueimkcej4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqL7Wx8ufWMEeuvTyNmRo8xkij7IdqdrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350814581616-ulhu9uvt0ju306fbbc9pfsjueimkcej4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
