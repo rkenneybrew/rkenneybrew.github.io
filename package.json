@@ -27,7 +27,7 @@
     "console": "^0.7.2",
     "django": "^1.0.0",
     "firebase": "^9.22.1",
-    "firebase-cli": "^0.0.4",
+    "firebase-cli": "^1.2.0",
     "firebase-tools": "^0.1.6",
     "gem": "^2.4.3",
     "homebrew": "^0.1.0",
