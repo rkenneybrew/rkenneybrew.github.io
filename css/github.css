@@ -61,33 +61,6 @@ p {
             font-size: 10px;
             
 		}
-	
-		 navbar {
-            
-          width: 100;
-          font-size: 100%;
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            
-            
-		}
-        
-.navbar {
-            
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            
-            
-		}
-
 /****** End of Text Style ******/
 	
 /****** Vid Style ******/
@@ -144,7 +117,9 @@ body {
 }
 
 .sticky + .content {
+	
   padding-top: 102px;
+	
 }
 
  .navbar {
@@ -156,6 +131,9 @@ body {
   z-index: 1;
   margin: auto;
   border: #765bff outset 2.1px;
+  padding: 0;
+  color: #f9f9f9;
+  text-align: center;
     
 }
 
@@ -173,7 +151,7 @@ body {
 	
  .navbar a:hover {
 
-      width: 100%;
+      	width: 100%;
   		background-color: rgb(118, 91, 255, 0.650);
   		position: none;
   		z-index: 1;
