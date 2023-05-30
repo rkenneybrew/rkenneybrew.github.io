@@ -41,6 +41,7 @@
     
     <!---- End of Basic Meta-tags, Links, and Scripts for the header ---->
     <!------------------------------------------------------------------->
+	
 <!-- Carousel -->
 <section>  
   <div class="container mt-3">
@@ -297,20 +298,15 @@
 <!---- ****** End of Text Style ****** ---->
 	
 <!---- ****** Vid Style ****** ---->
-	<style>
-* {
-	
-  box-sizing: border-box;
-	
-}
+<style>
 
 	#myVideo {
 		
-  		position: fixed;
-		top: 0;
-  		right: none;
-  		bottom: 0;
-		left: 0;
+  		position: center;
+		/* -- top: 0;
+		right: 0; --*/
+		bottom: 0;
+		/* -- left: 0; -- */
   		min-width: 100%; 
   		min-height: 100%;
 
@@ -319,12 +315,12 @@
 		.overlay {
 			
 			position: fixed;
-			opacity: 10.5%;
-			content: center;
+			opacity: 7.7%;/* -- 10.5%; --*/
+			
 			
 		}
 
-	</style>
+</style>
 <!---- ****** End of Vid style ****** ---->
 	
 <style>
@@ -343,9 +339,8 @@ section {
 body {
 	
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  border: none;
-  background-color: rgba(72,13,107,0.95);
+  background-color: rgba(72,13,107,1.00);
+	
 }
 
  .header {
@@ -572,22 +567,7 @@ p1, .sidebar a {
 </section>
 	
 <!---- ****** Body ****** ---->
-<body>
-		<!-- Vid -->
-
-<div class="overlay">
-			
-	<video autoplay muted loop id="myVideo">
-		
-  		<source src="./vid/view_galaxy_1.mp4" type="video/mp4">
-		
-	</video>
-			
-</div>		
-	
-	<!-- End of Vid -->
-	
-	
+<body>	
 <!-- Embed -->
 <section>
         
@@ -619,7 +599,7 @@ p1, .sidebar a {
          
         <div class="embed-responsive embed-responsive-16by9" >
             
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pBy1zgt0XPc " title="What is GitHub?"></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="What is GitHub?"></iframe>
             
         </div>
          
@@ -660,7 +640,7 @@ p1, .sidebar a {
          
           <h2 class="text-center text-capitalize"> 
 			  
-			  &rarr; &rarr; &rarr; &rarr; &rarr;
+			  &rarr; &rarr; &rarr;
 			  
 			  <strong>
 				  
@@ -672,7 +652,7 @@ p1, .sidebar a {
 				  
 			  </strong>
 			  
-			  &larr; &larr; &larr; &larr; &larr;
+			  &larr; &larr; &larr;
 			  
 		  </h2>
         
@@ -680,7 +660,6 @@ p1, .sidebar a {
         
 </section>
     <!-- End of Embed -->
-	
   	</body>
 <!--- ***** End of Body ***** --->
     
@@ -702,6 +681,20 @@ p1, .sidebar a {
         
     </section>
     
+			<!-- Vid -->
+<!-- <section> -->
+<!-- <div class="overlay"> -->
+			
+	<video class="overlay" autoplay muted loop id="myVideo">
+		
+  		<source src="./vid/view_galaxy_1.mp4" type="video/mp4">
+		
+	</video>
+			
+<!-- </div>	-->	
+<!-- </section>	
+	<!-- End of Vid -->
+	
 </footer>
     
 <!--- ***** End of Footer ***** --->
@@ -709,6 +702,7 @@ p1, .sidebar a {
 <section>
 <br>
 </section>
+	
  <!--- ***** Scripts ***** --->
 <!-- Top NavBar Menu Script -->
 <!-- Scroll/Shrink -->
