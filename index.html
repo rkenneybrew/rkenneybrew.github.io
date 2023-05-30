@@ -113,7 +113,7 @@
       
     <div class="SMedia">
         
-      <a href="./404.html/">
+      <a href="#SMedia">
           
           Social
           
@@ -560,6 +560,31 @@ p1, .sidebar a {
 }
 </style>
 <!---- ****** End of Footer Style ****** ---->
+	<!-- Style Scroll -->
+	<style>
+		
+	#PSetup {
+	
+	}
+	
+	#Repo {
+	
+	}
+	
+	#CNAME {
+	
+	}
+	
+	#Hosting {
+	
+	}
+	
+	#SMedia {
+	
+	}
+		
+</style>
+	<!-- End of Style Scroll -->
 <!---- ****** End of CSS Style ****** ---->
 
 <section>
@@ -754,6 +779,36 @@ function myFunction() {
 }
 </script>
 <!---- End of Video Script ---->
+
+<!-- Scroll Script -->
+<script>
+	$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!-- End of Scroll Script -->
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.4.1.min.js"></script>
