@@ -368,15 +368,15 @@
     
 			<!-- Vid -->
 <!-- <section> -->
-<!-- <div class="overlay"> -->
+<div class="overlay"> 
 			
-	<video class="overlay" autoplay muted loop id="myVideo">
+	<video autoplay muted loop id="myVideo">
 		
   		<source src="./vid/view_galaxy_1.mp4" type="video/mp4">
 		
 	</video>
 			
-<!-- </div>	-->	
+</div>
 <!-- </section>	
 	<!-- End of Vid -->
 	
@@ -393,15 +393,14 @@
 <!-- Top NavBar Menu Script -->
 <!-- Scroll/Shrink -->
 <script>
-
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("myHeader");
+var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset > sticky) {
-    navbar.classList.add("sticky");
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
   } else {
     navbar.classList.remove("sticky");
   }

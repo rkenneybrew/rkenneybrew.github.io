@@ -132,7 +132,6 @@ body {
   margin: auto;
   border: #765bff outset 2.1px;
   padding: 0;
-  color: #f9f9f9;
   text-align: center;
     
 }
@@ -195,7 +194,7 @@ body {
 	
 	.PSetup {
 		
-    width: 20%;
+    	width: 20%;
 		margin: none;
 		border: #765bff outset 2.1px;
 		padding: 0px 0.5px 0px 0.5px;
