@@ -1,0 +1,24 @@
+{
+  "name": "dummy-app",
+  "version": "1.0.0",
+  "description": "app for dummies",
+  "main": "index.js",
+  "scripts": {
+    "test": "app right dummy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rkenneybrew.github.io"
+  },
+  "keywords": [
+    "app",
+    "dummy",
+    "right",
+    "package"
+  ],
+  "author": "239 Ricky Waters™",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
