@@ -72,7 +72,7 @@ body {
 	
   		margin: 0;
   		font-family: Arial, Helvetica, sans-serif;
-  		background-color: rgba(72,13,107,1.00);
+  		background-color: rgba(72,13,107,1.00); 
 	
 }
 
@@ -280,13 +280,10 @@ p1, .sidebar a {
         }
 /****** End of Style Text (below youtube video) ******/
 /*** Vid Style ***/
-#myVideo {
+/* -- #myVideo {
 		
-  		position: center;
-		/* -- top: 0;
-		right: 0; --*/
+		position: fixed;
 		bottom: 0;
-		/* -- left: 0; -- */
   		min-width: 100%; 
   		min-height: 100%;
 
@@ -295,9 +292,12 @@ p1, .sidebar a {
 .overlay {
 
 			position: fixed;
-			opacity: 10.5%;
 		
-		}
+			opacity: 7.5%;
+			
+
+		
+		} -- */
 /*** End of Vid Style ***/
 /****** Footer Style ******/
 body {
