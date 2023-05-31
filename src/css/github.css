@@ -1,7 +1,16 @@
-/****** CSS Style ******/
-		
-/****** Text Style ******/
-    
+/****** - - CSS on GitHub - - ******/
+/*** Section Style ***/    
+
+section {
+
+            padding: none;
+            margin: none;
+            border: none;
+
+    }
+
+/*** End of Section Style ***/
+/*** Text Style ***/
 h1 {
             
             margin: 0px;
@@ -13,7 +22,6 @@ h1 {
             font-size: 36px;
             
 		}
-	
 h2 {
             
             margin: 0px;
@@ -25,7 +33,6 @@ h2 {
             font-size: 28px;
             
 		}
-    
 h4 {
             
             margin: 0px;
@@ -37,7 +44,6 @@ h4 {
             font-size: 18px;
             
 		}
-    
 hr {
             
             margin: 0px;
@@ -49,7 +55,6 @@ hr {
             font-size: auto;
             
 		}
-    
 p {
             
             margin: 0px;
@@ -61,96 +66,74 @@ p {
             font-size: 10px;
             
 		}
-/****** End of Text Style ******/
-	
-/****** Vid Style ******/
-#myVideo {
-		
-  		position: center;
-		/* -- top: 0;
-		right: 0; --*/
-		bottom: 0;
-		/* -- left: 0; -- */
-  		min-width: 100%; 
-  		min-height: 100%;
-
-}
-		
-.overlay {
-
-			position: fixed;
-			opacity: 7.7%;/* -- 10.5%; --*/
-		
-		}
-/***********************/
-/****** Section Style ******/    
-section {
-
-        padding: none;
-        margin: none;
-        border: none;
-    }
-/***************************/
-/****** Top NavBar Style ******/
+/*** End of Text Style ***/
+/*** Top NavBar Style ***/
 body {
 	
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(72,13,107,1.00);
+  		margin: 0;
+  		font-family: Arial, Helvetica, sans-serif;
+  		background-color: rgba(72,13,107,1.00);
 	
 }
 
  .header {
-  padding: 10px 16px;
-  background: #555;
-  color: #f1f1f1;
+
+  		padding: 10px 16px;
+  		background: #555;
+  		color: #f1f1f1;
+
 }
 
 .content {
-  padding: 16px;
+
+  		padding: 16px;
+
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+
+ 		position: fixed;
+  		top: 0;
+  		width: 100%;
+
 }
 
 .sticky + .content {
 	
-  padding-top: 102px;
+  		padding-top: 102px;
 	
 }
 
  .navbar {
   
-  width: 100%;
-  overflow: hidden;
-  background-color: #190023;
-  position: none;
-  z-index: 1;
-  margin: auto;
-  border: #765bff outset 2.1px;
-  padding: 0;
-  text-align: center;
+  		width: 100%;
+  		overflow: hidden;
+  		background-color: #190023;
+  		position: none;
+  		z-index: 1;
+  		margin: auto;
+  		border: #765bff outset 2.1px;
+  		padding: 0;
+  		text-align: center;
     
 }
 
 .navbar a {
 	
-  width: 100%;
-  float: left;
-  font-size: 100%;
-  color: #f9f9f9;
-  text-align: center;
-  padding: 10px 4px;
-  text-decoration: none;
+  		width: 100%;
+  		float: left;
+  		font-size: 100%;
+  		color: #f9f9f9;
+  		text-align: center;
+  		padding: 10px 4px;
+  		text-decoration: none;
+
 }
 
 	
  .navbar a:hover {
 
-      	width: 100%;
+      		width: 100%;
   		background-color: rgb(118, 91, 255, 0.650);
   		position: none;
   		z-index: 1;
@@ -194,7 +177,7 @@ body {
 	
 	.PSetup {
 		
-    	width: 20%;
+    		width: 20%;
 		margin: none;
 		border: #765bff outset 2.1px;
 		padding: 0px 0.5px 0px 0.5px;
@@ -202,15 +185,19 @@ body {
 	}	
 	
 @media screen and (max-width: 500px) {
-  .navbar a {
-    float: left;
-    display: block;
-    width: 100%;
-    text-align: auto;
+
+.navbar a {
+
+    		float: left;
+    		display: block;
+    		width: 100%;
+    		text-align: auto;
+
   }
+
 }
-/****** End of Top NavBar Style ******/
-/****** Left NavBar Style ******/
+/*** End of Top NavBar Style ***/
+/*** Left NavBar Style ***/
         
 body {
     margin: 0;
@@ -279,23 +266,40 @@ p1, .sidebar a {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
-/****** End of Left NavBar Style ******/
-/****** Style Text (below youtube video) ******/
-
+/*** End of Left NavBar Style ***/
+/*** Style Text (below youtube video) ***/
 .container {
+
     border: #765bff outset 2.1px;
     background-color: #1900239a;
     margin: auto;
     padding: 20px;
     font-size: 10;
     width: auto;
+
         }
-
 /****** End of Style Text (below youtube video) ******/
-    
-/****** Footer Style ******/
+/*** Vid Style ***/
+#myVideo {
+		
+  		position: center;
+		/* -- top: 0;
+		right: 0; --*/
+		bottom: 0;
+		/* -- left: 0; -- */
+  		min-width: 100%; 
+  		min-height: 100%;
 
-	
+		}
+		
+.overlay {
+
+			position: fixed;
+			opacity: 7.7%;/* -- 10.5%; --*/
+		
+		}
+/*** End of Vid Style ***/
+/****** Footer Style ******/
 body {
         padding: 0;
         border: 0;
@@ -313,7 +317,5 @@ body {
    text-align: center;
    border: 1px #765bff outset;
 }
-
-/****** Footer Style ******
-
- /****** Style ******
+/*** Footer Style ***/
+/****** - - End of CSS - - ******/
