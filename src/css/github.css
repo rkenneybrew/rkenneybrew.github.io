@@ -64,7 +64,7 @@ p {
 /****** End of Text Style ******/
 	
 /****** Vid Style ******/
-	#myVideo {
+#myVideo {
 		
   		position: center;
 		/* -- top: 0;
@@ -199,7 +199,7 @@ body {
 		border: #765bff outset 2.1px;
 		padding: 0px 0.5px 0px 0.5px;
 		
-	}
+	}	
 	
 @media screen and (max-width: 500px) {
   .navbar a {

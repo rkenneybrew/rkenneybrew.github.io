@@ -35,11 +35,11 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
     
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="src/css/bootstrap-4.4.1.css" rel="stylesheet">
     <!---- End of Basic Meta-tags, Links, and Scripts for the header ---->
 
     <!------------------------------ Custom StyleSheet --------------------------------->
-    <link href="./css/github.css" rel="StyleSheet">
+    <link href="src/css/github.css" rel="StyleSheet">
     <!---------------------------------------------------------------------------------->
 	
 <!-- Carousel -->
@@ -368,9 +368,9 @@
     
 			<!-- Vid -->
 <!-- <section> -->
-<div class="overlay"> 
+<div> 
 			
-	<video autoplay muted loop id="myVideo">
+	<video class="overlay" autoplay muted loop id="myVideo">
 		
   		<source src="./vid/view_galaxy_1.mp4" type="video/mp4">
 		
@@ -391,7 +391,7 @@
  <!--- ***** Scripts ***** --->
 	
 <!-- Top NavBar Menu Script -->
-<!-- Scroll/Shrink -->
+<!-- Sticky Header -->
 <script>
 window.onscroll = function() {myFunction()};
 
@@ -406,8 +406,9 @@ function myFunction() {
   }
 }
 </script>
-<!-- End of Scroll/Shrink -->
+<!-- End of Sticky Header -->
 <!-- End of Top NavBar Menu Script -->
+	
 <!---- OpenNav Side Script (function) ---->
 <script>
 function openNav() {
@@ -440,7 +441,7 @@ function myFunction() {
 <!---- End of Video Script ---->
 
 <!-- Scroll Script -->
-<script>
+<!-- <script>
 	$(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -465,15 +466,15 @@ function myFunction() {
     } // End if
   });
 });
-</script>
+</script> -->
 <!-- End of Scroll Script -->
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="src/js/jquery-3.4.1.min.js"></script>
     
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap-4.4.1.js"></script>
 <!--- ***** End of Scripts ***** --->
 </html>
