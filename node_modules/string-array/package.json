@@ -1,0 +1,49 @@
+{
+  "name": "string-array",
+  "version": "1.0.1",
+  "description": "Parse string into array of string elements",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "clap test",
+    "coverage": "clap check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchip/string-array.git"
+  },
+  "keywords": [
+    "string",
+    "array",
+    "parse",
+    "parser"
+  ],
+  "files": [
+    "lib"
+  ],
+  "author": "Joel Chen <joel123@gmail.com>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electrode-archetype-njs-module-dev": "^3.0.0"
+  },
+  "nyc": {
+    "all": true,
+    "reporter": [
+      "lcov",
+      "text",
+      "text-summary"
+    ],
+    "exclude": [
+      "coverage",
+      "*clap.js",
+      "gulpfile.js",
+      "dist",
+      "test"
+    ],
+    "check-coverage": true,
+    "statements": 100,
+    "branches": 100,
+    "functions": 100,
+    "lines": 100,
+    "cache": true
+  }
+}

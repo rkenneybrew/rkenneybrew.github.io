@@ -13,11 +13,12 @@
     <!-- Title to the internet tab of a browser. -->
 <title>RKenneybrew | GitHub</title>
     <!--------------------------------------------->
+    
     <!-- Favicon: 32 x 32 (or 48 x 48) Image to the tab (can be used as shortcuts) of a browser -->
-    <link rel="shortcut icon" type="image/.png" href="img/favicon-github.ico">
+    <link rel="shortcut icon" type="image/.png" href="src/img/favicon-github.ico">
     <!-------------------------------------------------------------------------------------------->
-    <!---- Basic Meta-tags, Links, and Scripts for the site ---->
 
+    <!---- Basic Meta-tags, Links, and Scripts for the site ---->
     <meta charset="UTF-8">
     
     <meta name="description" content="Front-Page">
@@ -34,14 +35,32 @@
     
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
     
-    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <link href="src/css/bootstrap-4.4.1.css" rel="stylesheet">
+	
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="src/js/jquery-3.4.1.min.js"></script>
     
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="src/js/popper.min.js"></script>
+	
+    <script src="src/js/bootstrap-4.4.1.js"></script>
     <!---- End of Basic Meta-tags, Links, and Scripts for the header ---->
-    <!------------------------------------------------------------------->
-    <!-- Carousel -->
+
+    <!------------------------------ Custom StyleSheet --------------------------------->
+    <link href="src/css/github.css" rel="StyleSheet">
+    <!---------------------------------------------------------------------------------->
+	
+    <!------------------------------ .js Customs --------------------------------->
+     <script src="src/js/sticky-navbar.js"></script>
+	
+	 <script src="src/js/open-nav_side.js"></script>
+	
+	 <script src="src/js/smooth-scroll.js"></script>
+	
+	 <script src="src/js/background-video_full.js"></script>
+    <!---------------------------------------------------------------------------------->
+	
+<!-- Carousel -->
 <section>  
   <div class="container mt-3">
       <div class="row">
@@ -54,35 +73,27 @@
                   </ol>
                   <div class="carousel-inner">
                       <div class="carousel-item active">
-                          <img alt="Github" class="d-block w-100" src="img/slide-1.png">
+                          <img alt="Github" class="d-block w-100" src="src/img/slide-1.png">
                           <div class="carousel-caption d-none d-md-block">
                               <!-- <h5>Item 1 Heading</h5>
                               <p>Item 1 Description</p> -->
                           </div>
                       </div>
                       <div class="carousel-item">
-                          <img alt="GitHub" class="d-block w-100" src="img/slide-2.png">
+                          <img alt="GitHub" class="d-block w-100" src="src/img/slide-2.png">
                           <div class="carousel-caption d-none d-md-block">
                               <!-- <h5>Item 2 Heading</h5>
                               <p>Item 2 Description</p> -->
                           </div>
                       </div>
                       <div class="carousel-item">
-                          <img alt="GitHub" class="d-block w-100" src="img/slide-3.png">
+                          <img alt="GitHub" class="d-block w-100" src="src/img/slide-3.png">
                           <div class="carousel-caption d-none d-md-block">
                               <!-- <h5>Item 3 Heading</h5>
                               <p>Item 3 Description</p> -->
                           </div>
                       </div>
                   </div>
-                  <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                  </a> -->
               </div>
           </div>
       </div>
@@ -94,13 +105,13 @@
 <section>
 <br>
 </section>
-    
+	
 <!---- ****** Header ****** ---->
 <header>
   <!---- NavBar Menu Top ---->   
 <div class="navbar" id="myHeader">
       
-    <div>
+    <!-- <div>
         
        <a href="Page/index.html"><demo>
            
@@ -108,106 +119,74 @@
            
            </demo></a> 
         
-    </div>
+    </div> -->
       
-    <div>
+    <div class="SMedia">
         
-      <a href="./404.html/"><demo>
+      <a href="#Social-Media">
           
-          Social Media
+          Social
           
-          </demo></a>
+       </a>
         
     </div>
     
-      <div>
+      <div class="Hosting">
           
-      <a href="./404.html/"><demo>
+      <a href="#Hosting">
           
-          Host on GitHub
+          Hosting
           
-          </demo></a>
+          </a>
           
     </div>
     
-     <div>
+     <div class="CNAME">
           
-      <a href="./404.html/"><demo>
+      <a href="#CNAME">
           
-          GitHub CNAME
+          CNAME
           
-          </demo></a>
+          </a>
           
     </div>
 
-    <div>
+    <div class="Repo">
         
-      <a href="./404.html/"><demo>
+      <a href="#Repository">
           
-          Add Repository
+          Repo
           
-          </demo></a>
+          </a>
         
     </div>
       
-    <div>
-        
-      <a href="./404.html/"><demo>
+    <div class="PSetup">
+           
+      <a href="#Profile-Setup">
           
-          Profile Setup
+          Setup
           
-          </demo></a>
+          </a>
         
     </div>
       
 </div>
-      <!-- <div class="subnav">
-          <button class="subnavbtn">DEMO<i class="fa fa-caret-down"></i></button>
-          <div class="subnav-content">
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-          </div>
-      </div> -->
-     <!-- <div class="subnav">
-          <button class="subnavbtn">DEMO 2<i class="fa fa-caret-down"></i></button>
-          <div class="subnav-content">
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-          </div>
-      </div> -->
-      <!-- <div class="subnav">
-          <button class="subnavbtn">DEMO 3<i class="fa fa-caret-down"></i></button>
-          <div class="subnav-content">
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-          </div>
-      </div> -->
-      <!-- <div class="subnav">
-          <button class="subnavbtn">DEMO 4<i class="fa fa-caret-down"></i></button>
-          <div class="subnav-content">
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-              <a href="./404.html/">demo</a>
-          </div>
-      </div> -->
   
-  <!---- End of NavBar Menu Top ---->
+<!---- End of NavBar Menu Top ---->
        
-            <!---- Collasped SideBar ---->
+<!---- Collasped SideBar ---->
+	
   <div id="main">
       <button class="openbtn" onclick="openNav()">☰</button>
   </div>
-  <!---- End of Collasped SideBar ---->
+
+<!---- End of Collasped SideBar ---->
        
-  <!---- SideBar ---->
+<!---- SideBar ---->
   <div id="mySidebar" class="sidebar">
+	  
       <u><p1>Menu</p1></u>
-      
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       
        <h4>Web-Hosting</h4>
@@ -226,339 +205,18 @@
       <a href="./404.html/"><demo>What free service can I use for my backend?</demo></a>
       
   </div>
-  <!---- End of SideBar ---->
-</header>
+<!---- End of SideBar ---->
+	</header>
 <!---- ****** End of Header ****** ---->
 </head>
 <!---- ****** End of Head-tag ****** ---->
     
-    
-<!---- ****** CSS Style ****** ---->
-<!-- Text Style -->
-<style>
-    
-        h1 {
-            
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            font-size: 36px;
-            
-		}
-        h2 {
-            
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            font-size: 28px;
-            
-		}
-    
-        h4 {
-            
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            font-size: 18px;
-            
-		}
-    
-        hr {
-            
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            font-size: auto;
-            
-		}
-    
-        p {
-            
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            font-size: 10px;
-            
-		}
-    
-        {
-        
-        margin: 0px;
-        border: 0px;
-        padding: 0px;
-        color: #765bff;
-        
-        }
-
-        navbar {
-            
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            
-            
-		}
-        
-        .navbar {
-            
-            margin: 0px;
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            padding: 0px;
-            color: #f9f9f9;
-            text-align: center;
-            
-            
-		}
-    
-</style>
-<!---- ****** End of Text Style ****** ---->
-<style>
-    
-section {
-    
-        padding: none;
-        margin: none;
-        border: none;
-    }
-    
-</style>
-<!-- Top NavBar Style -->
-<style>
-    
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  border: none;
-  background-color: rgba(72,13,107,0.95);
-}
-
- .header {
-  padding: 10px 16px;
-  background: #555;
-  color: #f1f1f1;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
-.navbar {
-    
-  font-size: 10px;    
-  overflow: hidden;
-  background-color: #190023;
-  position: none;
-  z-index: 1;
-  margin: auto;
-  border: #765bff outset 2.1px;
-    
-}
-
-.navbar a {
-    
-  float: left;
-  color: #f9f9f9;
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-}
-
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 12px;
-  border: none;
-  outline: none;
-  color: #f9f9f9;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: rgb(118, 91, 255, 0.650);
-  position: none;
-  z-index: 1;
-}
-
-.subnav-content {
-  display: none;
-  position: fixed;
-  left: 0;
-  background-color: rgba(118, 91, 255, 0.650);
-  width: 100%;
-  z-index: 1;
-
-}
-
-.subnav-content a {
-  float: left;
-  color: #f9f9f9;
-  text-decoration: none;
-}
-
-.subnav-content a:hover {
-  background-color: #f9f9f9;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
- }
-
-</style>
-    
-<!-- End of Top NavBar Style -->
-<!-- Left NavBar Style -->
-    
-<style>
-    
-body {
-	margin: 0;
-  font-family: "Aerial", Helvetica, sans-serif;
-}
-
-.sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgba(25,0,35,0.74);
-  overflow-x: hidden;
-  transition: 0.6s;
-  padding-top: 60px;
-}
-
-p1, .sidebar a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #f9f9f9f9;
-  display: block;
-  transition: 0.6s;
-  text-align: center;
-}
-
-.sidebar a:hover {
-  color: #765bff;
-}
-
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: rgba(25,0,35,0.74);
-  color: #f9f9f9;
-  padding: 10px 15px;
-  border: #765bff outset 2.1px;
-  position: fixed;
-  z-index: 1;
-
-}
-
-.openbtn:hover {
-  background-color: #765bff;
-  border: #765bff outset 2.1px;
-}
-
-#main {
-  transition: margin-left .5s;
-  padding: none;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
-</style>
-<!-- End of Left NavBar Style -->
-    <!-- Style Text (below youtube video) -->
-<style>  
-        .container {
-            border: #765bff outset 2.1px;
-            background-color: #1900239a;
-            margin: auto;
-            padding: 20px;
-            font-size: 10;
-            width: auto;
-        }
-</style>
-    <!-- End of Style Text (below youtube video) -->
-    
-<!---- ****** Footer Style ****** ---->
-<style>
-    body {
-        padding: 0;
-        border: 0;
-        margin: 0;
-    }
-    
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 2.42%;
-   background-color: #190023;
-   color: #f9f9f9;
-   text-align: center;
-   padding: none;
-   border: #765bff outset 0;
-   margin: none;
-}
-</style>
-<!---- ****** End of Footer Style ****** ---->
-<!---- ****** End of CSS Style ****** ---->
-
 <section>
 <br>
 </section>
-
+	
 <!---- ****** Body ****** ---->
-    <body>
+<body>	
 <!-- Embed -->
 <section>
         
@@ -590,7 +248,7 @@ p1, .sidebar a {
          
         <div class="embed-responsive embed-responsive-16by9" >
             
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pBy1zgt0XPc " title="What is GitHub?"></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pBy1zgt0XPc" title="What is GitHub?"></iframe>
             
         </div>
          
@@ -626,34 +284,78 @@ p1, .sidebar a {
 </section>
         
 <section>
-    
-     <div>
-        
-      <div>
           
         <div class="container">
-            
-          <h2 class="text-center text-capitalize">&gt;&gt;&gt;&gt;&gt;&nbsp;<a>&nbsp;</a><strong><a href="https://github.com/signup">
-              
-            SIGN-UP
-              
-          </a></strong><a>&nbsp;</a>&lt;&lt;&lt;&lt;&lt;&nbsp;</h2>
-            
-        </div>
-          
-      </div>
+         
+          <h2 class="text-center text-capitalize"> 
+			  
+			  &rarr; &rarr; &rarr;
+			  
+			  <strong>
+				  
+				  <a href="src/Join-GitHub.html">
+					  
+				  &nbsp;	
+					  
+					  SIGN-UP 
+				  
+				  &nbsp; </a>
+				  
+			  </strong>
+			  
+			  &larr; &larr; &larr;
+			  
+		  </h2>
         
-    </div>
+    	</div>
         
 </section>
     <!-- End of Embed -->
-</body>
-<!--- ***** End of Body ***** --->
-    
-<!-- <section>
-<br>
-</section> -->
-    
+	
+	<section>
+	<br>
+	</section>
+	
+	<hr>
+	
+	<section>
+	<br>
+	</section>
+	
+	<!-- Description Information -->
+	<section>
+<div class="container" id="Profile-Setup">
+	<h2> Profile Setup </h2>
+	<p1> The standard Lorem Ipsum passage, used since the 1500s
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p1>
+</div>
+		
+<div class="container" id="Repository">
+	<h2> Repository </h2>
+	<p1> The standard Lorem Ipsum passage, used since the 1500s
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p1>
+</div>
+
+<div class="container" id="CNAME">
+	<h2> Custom CNAME </h2>
+	<p1> The standard Lorem Ipsum passage, used since the 1500s
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p1>
+</div>
+		
+<div class="container" id="Hosting">
+	<h2> Free Hosting </h2>
+	<p1> The standard Lorem Ipsum passage, used since the 1500s
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p1>
+</div>
+
+<div class="container" id="Social-Media">
+	<h2> Social-Media </h2>
+	<p1>The standard Lorem Ipsum passage, used since the 1500s
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p1>
+</div>
+	</section>
+	<!-- End of Description Information -->
+	
 <!--- ***** Footer ***** --->
     
 <footer class="footer">
@@ -667,54 +369,14 @@ p1, .sidebar a {
             </div>
         
     </section>
-    
+
 </footer>
-    
 <!--- ***** End of Footer ***** --->
     
 <section>
 <br>
 </section>
- <!--- ***** Scripts ***** --->
-<!-- Top NavBar Menu Script -->
-<!-- Scroll/Shrink -->
-<script>
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("myHeader");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-
-</script>
-<!-- End of Scroll/Shrink -->
-<!-- End of Top NavBar Menu Script -->
-<!---- OpenNav Side Script (function) ---->
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>
-<!---- End of OpenNav Side Script (function) ---->
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.4.1.min.js"></script>
     
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap-4.4.1.js"></script>
-<!--- ***** End of Scripts ***** --->
+  	</body>
+<!--- ***** End of Body ***** --->
 </html>
