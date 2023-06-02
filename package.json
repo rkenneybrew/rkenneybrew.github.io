@@ -14,11 +14,16 @@
     "init": "^0.1.2",
     "install": "^0.13.0",
     "n": "^9.1.0",
+    "next": "^13.4.4",
+    "next.js": "^1.0.3",
+    "nextjs": "^0.0.3",
     "node": "^20.2.0",
     "node.js": "^0.0.1-security",
+    "nodejs": "^0.0.0",
     "npm": "^9.6.7",
     "qiwi-sdk": "^4.1.4",
-    "systeminformation": "^5.17.16"
+    "systeminformation": "^5.17.16",
+    "vercel": "^30.0.0"
   },
   "name": "dummy",
   "description": "GitHub loves third party developers. We want to help make your project awesome, and often that includes showing off GitHub integration with an image. In order to keep everyone happy (and avoid involving lawyers), we've created this repository and filled it with artwork that you may use in your own applications.",
@@ -41,5 +46,8 @@
     "dummy"
   ],
   "author": "239 Ricky Waters™",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
 }
