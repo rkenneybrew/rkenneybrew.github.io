@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b79b300-4ff7-4951-95b2-280970eed398" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/css/back-to-top_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/sticky-back-to-top_button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/github.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
