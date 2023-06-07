@@ -1,0 +1,31 @@
+{
+  "name": "rk-app-expjs",
+  "version": "1.0.0",
+  "description": "package for app-expjs",
+  "main": "app-expjs.js",
+  "scripts": {
+    "test": "expose rk-app-expjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rkenneybrew.github.io"
+  },
+  "keywords": [
+    "pkg",
+    "pack",
+    "package",
+    "installer",
+    "dependency"
+  ],
+  "author": "239 Ricky Waters™",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2",
+    "i": "^0.3.7",
+    "install": "^0.13.0",
+    "n": "^9.1.0",
+    "npm": "^9.6.7",
+    "npx": "^10.2.2",
+    "pkg": "^5.8.1"
+  }
+}
