@@ -1,45 +1,18 @@
 {
-  "dependencies": {
-    "@339rama/openapi2types": "^4.2.0",
-    "@allthings/aws-kms-thingy": "^1.0.0",
-    "@apolitical/server": "^2.10.0",
-    "@xarc/run": "^1.1.1",
-    "chalk": "^5.2.0",
-    "commander": "^10.0.1",
-    "dummy": "^0.1.5",
-    "git": "^0.1.5",
-    "helmet": "^7.0.0",
-    "homebrew": "^0.1.0",
-    "i": "^0.3.7",
-    "init": "^0.1.2",
-    "install": "^0.13.0",
-    "n": "^9.1.0",
-    "node": "^20.2.0",
-    "node.js": "^0.0.1-security",
-    "npm": "^9.6.7",
-    "qiwi-sdk": "^4.1.4",
-    "systeminformation": "^5.17.16"
-  },
-  "name": "dummy",
-  "description": "GitHub loves third party developers. We want to help make your project awesome, and often that includes showing off GitHub integration with an image. In order to keep everyone happy (and avoid involving lawyers), we've created this repository and filled it with artwork that you may use in your own applications.",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "rkenneybrew.github.io",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "expose dummy"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "rkenneybrew.github.io"
-  },
-  "keywords": [
-    "npm",
-    "n",
-    "node",
-    "install",
-    "node.js",
-    "package",
-    "dummy"
-  ],
-  "author": "239 Ricky Waters™",
-  "license": "ISC"
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "html-express-js": "^1.1.1",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "morgan": "~1.9.1",
+    "pkg": "^5.8.1"
+  }
 }
