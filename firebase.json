@@ -9,7 +9,7 @@
             "dynamicLinks": true
           },
           {
-            "source": "/en/**",
+            "source": "/en/GitHub/**",
             "dynamicLinks": true
           },
           {
@@ -21,7 +21,7 @@
             "dynamicLinks": true
           },
           {
-            "source": "/en/GitHub/**",
+            "source": "/en/**",
             "dynamicLinks": true
           },
         ],
