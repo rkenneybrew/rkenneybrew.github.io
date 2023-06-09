@@ -1,7 +1,7 @@
 {
   "hosting": {
 
-    /** Dynamic Links will start with https://app.rkenneybrew.com/fbase **/
+        /** Dynamic Links will start with https://app.rkenneybrew.com/fbase **/
         "appAssociation": "AUTO",
         "rewrites": [
           {
@@ -22,10 +22,10 @@
           }
         ],
 
-        "public": "public-fb",
-        "ignore": [
-          "firebase.json",
-          "**/.*",
+    "public": "public-fb",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
       "**/node_modules/**"
     ]
   }

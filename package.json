@@ -2,9 +2,11 @@
   "dependencies": {
     "chalk": "^5.2.0",
     "commander": "^10.0.1",
+    "firebase": "^9.22.2",
     "i": "^0.3.7",
     "init": "^0.1.2",
     "install": "^0.13.0",
+    "node.js": "^0.0.1-security",
     "nodenv": "^0.1.0",
     "npm": "^9.7.1",
     "npx": "^3.0.0"
