@@ -1,0 +1,1 @@
+{"version":3,"sources":["processVersion.ts"],"sourcesContent":["module.exports = function processVersion() {\n  return process.version;\n};\n"],"names":["module","exports","processVersion","process","version"],"mappings":"AAAAA;AAAAA,MAAM,CAACC,OAAO,GAAG,SAASC,cAAc,GAAG;IACzC,OAAOC,OAAO,CAACC,OAAO,CAAC;CACxB,CAAC"}
