@@ -3,17 +3,67 @@
     "chalk": "^5.2.0",
     "cli": "^1.0.1",
     "commander": "^10.0.1",
+    "config": "^3.3.9",
+    "express.js": "^1.0.0",
     "firebase": "^9.22.2",
-    "firebase-cli": "^1.2.0",
     "firebase-tools": "^12.3.1",
-    "gh": "^1.11.14",
+    "gh": "^2.8.9",
+    "git": "^0.1.5",
+    "github": "^14.0.0",
     "github-actions": "^0.9.0",
     "i": "^0.3.7",
-    "init": "^0.1.2",
     "install": "^0.13.0",
+    "liquidjs": "^10.8.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.2",
+    "n": "^9.1.0",
+    "next.js": "^1.0.3",
     "node.js": "^0.0.1-security",
     "nodenv": "^0.1.0",
     "npm": "^9.7.1",
-    "npx": "^3.0.0"
+    "npx": "^3.0.0",
+    "nvm": "^0.0.4",
+    "nvs": "^0.5.2",
+    "pkg": "^5.8.1",
+    "python3": "^0.0.1",
+    "ruby": "^0.6.1",
+    "shortid": "^2.2.16",
+    "update": "^0.7.4",
+    "valid-url": "^1.0.9"
+  },
+  "name": "lacie-t",
+  "description": "GitHub loves third party developers. We want to help make your project awesome, and often that includes showing off GitHub integration with an image. In order to keep everyone happy (and avoid involving lawyers), we've created this repository and filled it with artwork that you may use in your own applications.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "turn on lacie-t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rkenneybrew.github.io"
+  },
+  "keywords": [
+    "pkg",
+    "pack",
+    "package",
+    "dependency",
+    "installer",
+    "lacie-t"
+  ],
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+}
+  "author": "Rickey Kenneybrew",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "tailwindcss": "^3.3.2",
+    "webpack": "^5.0.0-rc.6",
+    "webpack-cli": "^5.1.4"
   }
 }
