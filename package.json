@@ -1,8 +1,11 @@
 {
   "dependencies": {
     "chalk": "^5.2.0",
+    "cli": "^1.0.1",
     "commander": "^10.0.1",
     "firebase": "^9.22.2",
+    "firebase-cli": "^1.2.0",
+    "firebase-tools": "^12.3.1",
     "i": "^0.3.7",
     "init": "^0.1.2",
     "install": "^0.13.0",
