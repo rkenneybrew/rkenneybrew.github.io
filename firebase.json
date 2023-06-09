@@ -19,6 +19,10 @@
           {
             "source": "/**",
             "dynamicLinks": true
+          },
+          {
+            "source": "/en/GitHub/**",
+            "dynamicLinks": true
           }
         ],
 
