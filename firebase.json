@@ -1,7 +1,6 @@
 {
   "hosting": {
 
-        /** Dynamic Links will start with https://app.rkenneybrew.com/fbase **/
         "appAssociation": "AUTO",
         "rewrites": [
           {
@@ -23,7 +22,7 @@
           {
             "source": "/en/**",
             "dynamicLinks": true
-          },
+          }
         ],
 
     "public": "public-fb",
