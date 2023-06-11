@@ -59,7 +59,7 @@
 /** Text-Center **/
 /** End of Text-Center **/
 /*** Style Text (below youtube video) ***/
-.container {
+.BlackLightBox {
 
     border: #765bff outset 2.1px;
     background-color: #1900239a;
@@ -67,6 +67,7 @@
     padding: 20px;
     font-size: 10;
     width: auto;
+    height: auto;
 
         }
 /****** End of Style Text (below youtube video) ******/

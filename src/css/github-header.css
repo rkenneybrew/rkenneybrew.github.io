@@ -1,13 +1,13 @@
 /** Header Style **/
     .header {
 
-        position: absolute;
+        /* position: fixed;
         top: 0;
-        left: 0;
+        left: 0; */
   		padding: 10px 16px;
-  		z-index: 1000;
-  		background: #555;
-  		color: #f9f9f9;
+  		/* z-index: 1; */
+  		/* background: #555; */
+  		/* color: #f9f9f9; */
 
 }
 /** End of Header Style **/

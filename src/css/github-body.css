@@ -1,9 +1,78 @@
 /** Body Style **/
-    .body {
-        padding: 0;
-        border: 0;
+    body {
+        /* padding: 0; */
+        /* border: 0; */
         margin: 0;
-        /* background-color: rgba(72,13,107,1.00); */
+        background-color: rgba(72,13,107,1.00);
         /* background-color: black; */
+        /* background: #333333; */
     }
+
+    .CarouselGallery {
+        margin: 0;
+        padding: 0;
+    }
+/*** Vid Style ***/
+   /* .video-container { */
+        /* position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: ###;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+            video {
+                min-width: 100%;
+                min-height: 100%
+                width: 100vw;
+                height: 100vh;
+                position: absolute;
+                top: 50%
+                left: 50%;
+                transform: translate(-50%,-50%);
+            } */
+        /* bottom: 0;
+        right: 0; */
+        /* opacity: 0.5; */
+        /* width: 100%; */
+        /* min-height: 100%; */
+        /* object-fit: cover */
+        /* opacity: 0.5; */
+   /* } */
+    /* #back, front {
+        position: absolute;
+        width: 100%;
+    } */
+    /* #back {
+        z-index: 1;
+    } */
+    /* #front {
+    z-index: 2;
+    } */
+    /* .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+    } */
+    /* #content {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 2;
+    } */
+/*    #content2 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        z-index: 2;
+    } */
+/*** End of Vid Style ***/
 /** End of Body Style **/

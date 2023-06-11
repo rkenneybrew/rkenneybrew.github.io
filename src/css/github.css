@@ -3,16 +3,21 @@
 
     section {
 
-            padding: none;
-            margin: none;
+            margin: 0;
             border: none;
+            padding: 0;
 
-    }
+   }
 
 /*** End of Section Style ***/
 
 /*** Top NavBar Style ***/
-    .content {
+    body {
+        margin: 0;
+  		font-family: Arial, Helvetica, sans-serif;
+  		background-color: rgba(72,13,107,1.00);
+    }
+    .navbarc {
 
   		padding: 16px;
 
@@ -26,7 +31,7 @@
 
 }
 
-    .sticky + .content {
+    .sticky + .navbarc {
 
   		padding-top: 102px;
 
@@ -127,6 +132,10 @@
 /*** End of Top NavBar Style ***/
 
 /*** Left NavBar Style ***/
+body {
+    margin: 0;
+    font-family: "Aerial", Helvetica, sans-serif;
+}
 .sidebar {
   height: 100%;
   width: 0;
@@ -191,10 +200,13 @@ p1, .sidebar a {
 }
 /*** End of Left NavBar Style ***/
 
-/** GitHub Style **/
-    /* GitHub {
-        z-index: 1000;
-} */
+/** GitHub Style
+    .GitHub {
+        padding: 0;
+        border: none;
+        margin: 0;
+        z-index: 1;
+} **/
 /** End of GitHub Style **/
 
 /*** Back to Top Style ***/
