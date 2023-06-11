@@ -1,0 +1,13 @@
+/****** Footer Style ******/
+.footer {
+   position: fixed;
+   bottom: 0%;
+   width: 100%;
+   margin: auto;
+   padding: auto;
+   background-color: #190023;
+   color: #f9f9f9;
+   text-align: center;
+   border: 1px #765bff outset;
+}
+/*** Footer Style ***/

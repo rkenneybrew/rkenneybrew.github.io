@@ -1,0 +1,72 @@
+/*** Text Style ***/
+    h1 {
+
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: 36px;
+
+		}
+    h2 {
+
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: 26px;
+
+		}
+    h4 {
+
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: 18px;
+
+		}
+    hr {
+
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: auto;
+
+		}
+    p {
+
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: 10px;
+
+		}
+/*** End of Text Style ***/
+
+/** Text-Center **/
+/** End of Text-Center **/
+/*** Style Text (below youtube video) ***/
+.container {
+
+    border: #765bff outset 2.1px;
+    background-color: #1900239a;
+    margin: auto;
+    padding: 20px;
+    font-size: 10;
+    width: auto;
+
+        }
+/****** End of Style Text (below youtube video) ******/

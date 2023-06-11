@@ -1,6 +1,6 @@
 ////// Background Video //////
 
-var video = document.getElementById("myVideo");
+var video = document.getElementById("galaxy1");
 var btn = document.getElementById("myBtn");
 
 function myFunction() {

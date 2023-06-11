@@ -23,7 +23,7 @@
     <!---- Basic Meta-tags, Links, and Scripts for the site ---->
     <meta charset="UTF-8">
     <!-- ** Facebook ** -->
-    <meta name="facebook-domain-verification" content="qapanv0o4e8diqdjvho1w5sb4tydbw" />
+    <meta name="facebook-domain-verification" content="6rlkvducsxsb6bnih8q3syork5kpb2" />
     <!-------------------->
     <meta name="description" content="Front-Page">
 
@@ -53,9 +53,19 @@
     <!---- End of Basic Meta-tags, Links, and Scripts for the header ---->
 
     <!------------------------------ Custom StyleSheet --------------------------------->
+    <link href="src/css/github-universal.css" rel="StyleSheet">
+
+    <link href="src/css/github-header.css" rel="StyleSheet">
+
+    <!-- <link href="src/css/github-body.css" rel="StyleSheet"> -->
+
+    <link href="src/css/github-footer.css" rel="StyleSheet">
+
+    <link href="src/css/github-text.css" rel="StyleSheet">
+
     <link href="src/css/github.css" rel="StyleSheet">
 
-    <!-- <link href="src/css/back-to-top_style.css" rel="StyleSheet"> -->
+	<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css">
     <!---------------------------------------------------------------------------------->
 
     <!------------------------------ .js Customs --------------------------------->
@@ -68,10 +78,12 @@
 	 <script src="src/js/background-video_full.js"></script>
 
      <script src="src/js/sticky-back-to-top_button.js"></script>
+	
+	<script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script>
     <!---------------------------------------------------------------------------------->
 
-	<!-- Back to Top -->
-<a href="#" id="scroll" style="display: none;"><span> </span></a>
+    <!-- Back to Top -->
+    <a href="#" id="scroll" style="display: none;"><span> </span></a>
     <!-- End of Back to Top -->	
 	
 <!-- Carousel -->
@@ -120,108 +132,6 @@
 <br>
 </section>
 
-<!---- ****** Header ****** ---->
-<header>
-  <!---- NavBar Menu Top ---->
-<div class="navbar" id="myHeader">
-
-    <!-- <div>
-
-       <a href="Page/index.html"><demo>
-
-           Trademark
-
-           </demo></a>
-
-    </div> -->
-
-    <div class="SMedia">
-
-      <a href="#Social-Media">
-
-          Social
-
-       </a>
-
-    </div>
-
-      <div class="Hosting">
-
-      <a href="#Hosting">
-
-          Hosting
-
-          </a>
-
-    </div>
-
-     <div class="CNAME">
-
-      <a href="#CNAME">
-
-          CNAME
-
-          </a>
-
-    </div>
-
-    <div class="Repo">
-
-      <a href="#Repository">
-
-          Repo
-
-          </a>
-
-    </div>
-
-    <div class="PSetup">
-
-      <a href="#Profile-Setup">
-
-          Setup
-
-          </a>
-
-    </div>
-
-</div>
-
-<!---- End of NavBar Menu Top ---->
-
-<!---- Collasped SideBar ---->
-
-  <div id="main">
-      <button class="openbtn" onclick="openNav()">☰</button>
-  </div>
-
-<!---- End of Collasped SideBar ---->
-
-<!---- SideBar ---->
-  <div id="mySidebar" class="sidebar">
-
-      <u><p1>Menu</p1></u>
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-
-       <h4>Web-Hosting</h4>
-      <a href="./404.html/"><demo>Vercel</demo></a>
-
-       <h4>Backend Development</h4>
-      <a href="./404.html/"><demo>Heroku</demo></a>
-
-      <!-- <a href="./404.html/"><demo>DEMO</demo></a> -->
-
-       <h4>FAQs</h4>
-      <a href="./404.html/"><demo>Where can I get free web-hosting?</demo></a>
-
-      <a href="./404.html/"><demo>Is GitHub for frontend developers?</demo></a>
-
-      <a href="./404.html/"><demo>What free service can I use for my backend?</demo></a>
-
-  </div>
-<!---- End of SideBar ---->
-	</header>
-<!---- ****** End of Header ****** ---->
 </head>
 <!---- ****** End of Head-tag ****** ---->
 
@@ -231,10 +141,119 @@
 
 <!---- ****** Body ****** ---->
 <body>
+<section class="showcase">
+    <!---- ****** Header ****** ---->
+    <header>
+        <!---- NavBar Menu Top ---->
+        <div class="navbar" id="myHeader">
+
+            <!-- <div>
+
+               <a href="Page/index.html"><demo>
+
+                   Trademark
+
+                   </demo></a>
+
+            </div> -->
+
+            <div class="SMedia">
+
+                <a href="#Social-Media">
+
+                    Social
+
+                </a>
+
+            </div>
+
+            <div class="Hosting">
+
+                <a href="#Hosting">
+
+                    Hosting
+
+                </a>
+
+            </div>
+
+            <div class="CNAME">
+
+                <a href="#CNAME">
+
+                    CNAME
+
+                </a>
+
+            </div>
+
+            <div class="Repo">
+
+                <a href="#Repository">
+
+                    Repo
+
+                </a>
+
+            </div>
+
+            <div class="PSetup">
+
+                <a href="#Profile-Setup">
+
+                    Setup
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!---- End of NavBar Menu Top ---->
+
+        <!---- Collasped SideBar ---->
+
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+
+        <!---- End of Collasped SideBar ---->
+
+        <!---- SideBar ---->
+        <div id="mySidebar" class="sidebar">
+
+            <u><p1>Menu</p1></u>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+            <h4>Web-Hosting</h4>
+            <a href="./404.html/"><demo>Vercel</demo></a>
+
+            <h4>Backend Development</h4>
+            <a href="./404.html/"><demo>Heroku</demo></a>
+
+            <!-- <a href="./404.html/"><demo>DEMO</demo></a> -->
+
+            <h4>FAQs</h4>
+            <a href="./404.html/"><demo>Where can I get free web-hosting?</demo></a>
+
+            <a href="./404.html/"><demo>Is GitHub for frontend developers?</demo></a>
+
+            <a href="./404.html/"><demo>What free service can I use for my backend?</demo></a>
+
+        </div>
+        <!---- End of SideBar ---->
+    </header>
+    <!---- ****** End of Header ****** ---->
+
+<section>
+<br>
+</section>
+
 <!-- Embed -->
+<div class="GitHub">
 <section>
 
-	<div class="container">
+    <div class="container">
 
 		<div class="text-center">
 
@@ -324,6 +343,7 @@
     	</div>
 
 </section>
+</div>
     <!-- End of Embed -->
 
 	<section>
@@ -421,11 +441,20 @@
 
 </footer>
 <!--- ***** End of Footer ***** --->
-    
-<section>
-<br>
-</section>
 
+    <section>
+    <br>
+    </section>
+
+<!-- Backgroound Video -->
+    <video autoplay muted loop id="galaxy1">
+
+        <source src="src/vid/view_galaxy_1.mp4/">
+
+    </video>
+<!----------------------->
+
+</section>
   	</body>
 <!--- ***** End of Body ***** --->
 </html>

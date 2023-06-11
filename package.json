@@ -33,8 +33,8 @@
     "valid-url": "^1.0.9"
   },
   "name": "lacie-t",
-  "description": "GitHub loves third party developers. We want to help make your project awesome, and often that includes showing off GitHub integration with an image. In order to keep everyone happy (and avoid involving lawyers), we've created this repository and filled it with artwork that you may use in your own applications.",
-  "version": "1.0.0",
+  "description": "Package built with LaCie10TB External-HD (2nd Gen).",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
