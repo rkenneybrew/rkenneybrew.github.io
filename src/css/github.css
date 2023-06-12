@@ -1,29 +1,128 @@
 /****** - - CSS on GitHub - - ******/
-/*** Section Style ***/
+/*** Back to Top Style ***/
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+   /* background-color:#3498db; */
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#f9f9f9;
+}
+#scroll:hover {
+    /* background-color:#e74c3c; */
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+/*** End of Back to Top Style ***/
+/*** Section Style ***/    
 
-    section {
+section {
 
-            margin: 0;
+            padding: none;
+            margin: none;
             border: none;
-            padding: 0;
 
-   }
+    }
 
 /*** End of Section Style ***/
-
+/*** Text Style ***/
+h1 {
+            
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: 36px;
+            
+		}
+h2 {
+            
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: 28px;
+            
+		}
+h4 {
+            
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: 18px;
+            
+		}
+hr {
+            
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: auto;
+            
+		}
+p {
+            
+            margin: 0px;
+            border: #765bff outset 2.1px;
+            background-color: #1900239a;
+            padding: 0px;
+            color: #f9f9f9;
+            text-align: center;
+            font-size: 10px;
+            
+		}
+/*** End of Text Style ***/
 /*** Top NavBar Style ***/
-    body {
-        margin: 0;
+body {
+	
+  		margin: 0;
   		font-family: Arial, Helvetica, sans-serif;
-  		background-color: rgba(72,13,107,1.00);
-    }
-    .navbarc {
+  		background-color: rgba(72,13,107,1.00); 
+	
+}
+
+ .header {
+
+  		padding: 10px 16px;
+  		background: #555;
+  		color: #f1f1f1;
+
+}
+
+.content {
 
   		padding: 16px;
 
 }
 
-    .sticky {
+.sticky {
 
  		position: fixed;
   		top: 0;
@@ -31,14 +130,14 @@
 
 }
 
-    .sticky + .navbarc {
-
+.sticky + .content {
+	
   		padding-top: 102px;
-
+	
 }
 
-    .navbar {
-
+ .navbar {
+  
   		width: 100%;
   		overflow: hidden;
   		background-color: #190023;
@@ -48,11 +147,11 @@
   		border: #765bff outset 2.1px;
   		padding: 0;
   		text-align: center;
-
+    
 }
 
-    .navbar a {
-
+.navbar a {
+	
   		width: 100%;
   		float: left;
   		font-size: 100%;
@@ -63,60 +162,60 @@
 
 }
 
+	
+ .navbar a:hover {
 
-    .navbar a:hover {
-
-      	width: 100%;
+      		width: 100%;
   		background-color: rgb(118, 91, 255, 0.650);
   		position: none;
   		z-index: 1;
-}
+} 
 
-	.SMedia {
-
+	.SMedia {   
+		
 		width: 20%;
 		margin: none;
 		border: #765bff outset 2.1px;
 		padding: 0px 0.5px 0px 0.5px;
-
+		
 	}
-
+		
 	.Hosting {
-
+		
 		width: 20%;
 		margin: none;
 		border: #765bff outset 2.1px;
 		padding: 0px 0.5px 0px 0.5px;
-
+		
 	}
-
+	
 	.CNAME {
-
+		
 		width: 20%;
 		margin: none;
 		border: #765bff outset 2.1px;
 		padding: 0px 0.5px 0px 0.5px;
-
+		
 	}
-
+	
 	.Repo {
-
+		
 		width: 20%;
 		margin: none;
 		border: #765bff outset 2.1px;
 		padding: 0px 0.5px 0px 0.5px;
-
+		
 	}
-
+	
 	.PSetup {
-
-    	width: 20%;
+		
+    		width: 20%;
 		margin: none;
 		border: #765bff outset 2.1px;
 		padding: 0px 0.5px 0px 0.5px;
-
-	}
-
+		
+	}	
+	
 @media screen and (max-width: 500px) {
 
 .navbar a {
@@ -130,12 +229,13 @@
 
 }
 /*** End of Top NavBar Style ***/
-
 /*** Left NavBar Style ***/
+        
 body {
     margin: 0;
     font-family: "Aerial", Helvetica, sans-serif;
 }
+
 .sidebar {
   height: 100%;
   width: 0;
@@ -199,46 +299,55 @@ p1, .sidebar a {
   .sidebar a {font-size: 18px;}
 }
 /*** End of Left NavBar Style ***/
+/*** Style Text (below youtube video) ***/
+.container {
 
-/** GitHub Style
-    .GitHub {
+    border: #765bff outset 2.1px;
+    background-color: #1900239a;
+    margin: auto;
+    padding: 20px;
+    font-size: 10;
+    width: auto;
+
+        }
+/****** End of Style Text (below youtube video) ******/
+/*** Vid Style ***/
+/* -- #myVideo {
+		
+		position: fixed;
+		bottom: 0;
+  		min-width: 100%; 
+  		min-height: 100%;
+
+		}
+		
+.overlay {
+
+			position: fixed;
+		
+			opacity: 7.5%;
+			
+
+		
+		} -- */
+/*** End of Vid Style ***/
+/****** Footer Style ******/
+body {
         padding: 0;
-        border: none;
+        border: 0;
         margin: 0;
-        z-index: 1;
-} **/
-/** End of GitHub Style **/
-
-/*** Back to Top Style ***/
-    #scroll {
-        position:fixed;
-        right:10px;
-        bottom:10px;
-        cursor:pointer;
-        width:50px;
-        height:50px;
-    /* background-color:#3498db; */
-        text-indent:-9999px;
-        display:none;
-        -webkit-border-radius:60px;
-        -moz-border-radius:60px;
-        border-radius:60px;
+    }
+    
+.footer {
+   position: fixed;
+   bottom: 0%;
+   width: 100%;
+   margin: auto;
+   padding: auto;
+   background-color: #190023;
+   color: #f9f9f9;
+   text-align: center;
+   border: 1px #765bff outset;
 }
-    #scroll span {
-        position:absolute;
-        top:50%;
-        left:50%;
-        margin-left:-8px;
-        margin-top:-12px;
-        height:0;
-        width:0;
-        border:8px solid transparent;
-        border-bottom-color:#f9f9f9;
-}
-    #scroll:hover {
-        /* background-color:#e74c3c; */
-        opacity:1;filter:"alpha(opacity=100)";
-        -ms-filter:"alpha(opacity=100)";
-}
-/*** End of Back to Top Style ***/
+/*** Footer Style ***/
 /****** - - End of CSS - - ******/
