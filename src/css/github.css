@@ -347,7 +347,7 @@ body {
    background-color: #190023;
    color: #f9f9f9;
    text-align: center;
-   border: 1px #765bff outset;
+   border: 1px #765bff outset 2.1px 2.1px 2.1px 2.1px;
 }
 /*** Footer Style ***/
 /****** - - End of CSS - - ******/
