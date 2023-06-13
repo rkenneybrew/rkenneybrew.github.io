@@ -62,7 +62,7 @@ h2 {
             padding: 0px;
             color: #f9f9f9;
             text-align: center;
-            font-size: 28px;
+            font-size: 24px;
             
 		}
 h4 {
@@ -312,24 +312,7 @@ p1, .sidebar a {
         }
 /****** End of Style Text (below youtube video) ******/
 /*** Vid Style ***/
-/* -- #myVideo {
-		
-		position: fixed;
-		bottom: 0;
-  		min-width: 100%; 
-  		min-height: 100%;
 
-		}
-		
-.overlay {
-
-			position: fixed;
-		
-			opacity: 7.5%;
-			
-
-		
-		} -- */
 /*** End of Vid Style ***/
 /****** Footer Style ******/
 body {
