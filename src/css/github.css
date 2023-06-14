@@ -299,7 +299,7 @@ p1, .sidebar a {
   .sidebar a {font-size: 18px;}
 }
 /*** End of Left NavBar Style ***/
-/*** Style Text (below youtube video) ***/
+/*** Container Box (class-id) ***/
 .container {
 
     border: #765bff outset 2.1px;
@@ -310,7 +310,7 @@ p1, .sidebar a {
     width: auto;
 
         }
-/****** End of Style Text (below youtube video) ******/
+/*** End of Container Box (class-id) ***/
 /*** Vid Style ***/
 /* -- #myVideo {
 		
