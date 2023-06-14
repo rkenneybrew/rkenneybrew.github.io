@@ -1,19 +1,6 @@
-// Black Light Box Source-Plugin
-
-/////// OpenNav Side //////
-
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
+﻿// "Black-Light" Box JavaScript Website plugins
 
 ////// Background Video //////
-
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
 
@@ -27,8 +14,18 @@ function myFunction() {
   }
 }
 
-////// Smooth Scroll //////
+////// OpenNav Side //////
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+////// Smooth Scroll //////
 	$(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -55,23 +52,21 @@ function myFunction() {
 });
 
 ////// Sticky Back to Top Button //////
-
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('#scroll').fadeIn(); 
-        } else { 
-            $('#scroll').fadeOut(); 
-        } 
-    }); 
-    $('#scroll').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('#scroll').fadeIn();
+        } else {
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
 });
 
 ////// Sticky-NavBar //////
-
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
