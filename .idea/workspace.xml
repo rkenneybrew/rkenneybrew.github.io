@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2a84b606-7289-4501-a70f-061a95486c32" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/BlackLightBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/BlackLightBox.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
