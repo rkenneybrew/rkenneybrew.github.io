@@ -1,19 +1,17 @@
 {
   "name": "rollup",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
-      "": "",
-      "build:rollup:browser": "",
-      "build:rollup:module": "",
-      "build:rollup:plugin": "rollup -c",
-      "build:rollup:umd": "",
-      "build:rollup:config": "rollup --config",
-      "build:rollup:config:custom": "rollup --config _config/ctm/custom.rollup.config.mjs",
-      "build:rollup:config:development": "rollup --config rollup.config.dev.mjs",
-      "build:rollup:config:production": "rollup --config rollup.config.prod.mjs",
-      "": "",   
+    "": "",
+    "build:rollup:browser": "",
+    "build:rollup:module": "",
+    "build:rollup:plugin": "rollup -c",
+    "build:rollup:umd": "",
+    "build:rollup:config": "rollup --config",
+    "build:rollup:config:custom": "rollup --config _config/ctm/custom.rollup.config.mjs",
+    "build:rollup:config:development": "rollup --config rollup.config.dev.mjs",
+    "build:rollup:config:production": "rollup --config rollup.config.prod.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rickey Kenneybrew",
@@ -21,5 +19,11 @@
   "devDependencies": {
     "@rollup/plugin-json": "^6.0.1",
     "rollup": "^4.6.1"
-  }
+  },
+  "dependencies": {
+    "estree-walker": "^2.0.2",
+    "fsevents": "^2.3.3",
+    "picomatch": "^2.3.1"
+  },
+  "description": ""
 }

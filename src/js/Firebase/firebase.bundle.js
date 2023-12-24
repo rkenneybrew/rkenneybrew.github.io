@@ -1,6 +1,10 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+'use strict';
+
+var package_json = require('package.json');
+var app$1 = require('firebase/app');
+var analytics = require('firebase/analytics');
+
+// src/main.js
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -18,5 +22,12 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const app = app$1.initializeApp(firebaseConfig);
+analytics.getAnalytics(app);
+////
+
+function main () {
+	console.log('version ' + package_json.version);
+}
+
+module.exports = main;
