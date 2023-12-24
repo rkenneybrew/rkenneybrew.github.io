@@ -5,46 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a84b606-7289-4501-a70f-061a95486c32" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Firebase/firebase-umd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Firebase/firebase.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Rollup/@build/name_this_prefix.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/.bin/rollup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/Rollup/umd/build/firebase-umd.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/_config/ctm/custom.rollup.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/_config/ctm/custom.rollup.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/getLogFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/getLogFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/parseAst.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/parseAst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/rollup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/rollup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/shared/node-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/shared/node-entry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/shared/parseAst.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/shared/parseAst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/shared/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/es/shared/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/getLogFilter.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/getLogFilter.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/getLogFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/getLogFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/loadConfigFile.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/loadConfigFile.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/loadConfigFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/loadConfigFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/native.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/native.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/parseAst.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/parseAst.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/parseAst.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/parseAst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/rollup.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/rollup.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/rollup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/rollup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/fsevents-importer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/fsevents-importer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/loadConfigFile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/loadConfigFile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/parseAst.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/parseAst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/rollup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/rollup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/watch-cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/watch-cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/watch-proxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/watch-proxy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/dist/shared/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/node_modules/rollup/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Rollup/umd/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Rollup/umd/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,24 +24,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/rkenneybrew88/Github/Repository/rkenneybrew.github.io/src/js/Firebase",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/js/Firebase" />
-    </key>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
