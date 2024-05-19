@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a84b606-7289-4501-a70f-061a95486c32" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.fastRequest/config/fastRequestCurrentProjectEnvironment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rkenneybrew.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rkenneybrew.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlackLightBox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/BlackLightBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/BlackLightBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/brands.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/brands.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/fontawesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/regular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/regular.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/solid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/solid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/v4-shims.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/v4-shims.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/brands.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/brands.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/fontawesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/regular.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/regular.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/solid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/solid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/v4-shims.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/v4-shims.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +50,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "aem-ide.servers.initialized": "true",
     "cidr.known.project.marker": "true",
-    "com.google.cloudcode.ide_session_index": "20240519_0001",
+    "com.google.cloudcode.ide_session_index": "20240519_0002",
     "dart.analysis.tool.window.visible": "false",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -100,6 +80,7 @@
       <updated>1687138546790</updated>
       <workItem from="1716156911841" duration="46000" />
       <workItem from="1716156964112" duration="627000" />
+      <workItem from="1716157598062" duration="138000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1687152511436</created>
