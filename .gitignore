@@ -1,0 +1,20 @@
+# System Files
+.DS_Store
+.idea
+
+# Virtual & Environment Variables (.env & .virtualenv)
+.dotenv
+.env
+
+# Tokens and PPKs (Private-Public Keys)
+:Xcode-Personal-Acess-Token_ppk
+:Xcode-Personal-Acess-Token_ppk.pub
+
+# Files & Directories
+node_modules/
+src/
+BlackLightBox.html
+One-Page.html
+What-is-Github.html
+#yarn.lock
+.fastRequest/config/fastRequestCurrentProjectEnvironment.json

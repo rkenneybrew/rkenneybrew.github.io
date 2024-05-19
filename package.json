@@ -1,0 +1,29 @@
+{
+  "name": "rkenneybrew.github.io",
+  "version": "2.0.0",
+  "description": "Sign-up with Github.",
+  "main": "app.github.js",
+  "scripts": {
+    "start": "node app.github.js",
+    "ghub": "github",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rkenneybrew/rkenneybrew.github.io"
+  },
+  "keywords": [
+    "Github-Pages",
+    "Repository",
+    "Display",
+    "Github",
+    "Sign-up"
+  ],
+  "author": "Rickey Kenneybrew",
+  "license": "CC-BY-3.0",
+  "dependencies": {
+    "express": "^4.19.2",
+    "yarn": "^1.22.22"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
