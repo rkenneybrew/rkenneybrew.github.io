@@ -1,6 +1,7 @@
 # System Files
 .DS_Store
 .idea
+.fastRequest/config/fastRequestCurrentProjectEnvironment.json
 
 # Virtual & Environment Variables (.env & .virtualenv)
 .dotenv
@@ -12,8 +13,4 @@
 
 # Files & Directories
 node_modules/
-BlackLightBox.html
-One-Page.html
-What-is-Github.html
 #yarn.lock
-.fastRequest/config/fastRequestCurrentProjectEnvironment.json

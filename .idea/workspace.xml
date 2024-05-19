@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a84b606-7289-4501-a70f-061a95486c32" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/One-Page.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <updated>1687138546790</updated>
       <workItem from="1716156911841" duration="46000" />
       <workItem from="1716156964112" duration="627000" />
-      <workItem from="1716157598062" duration="138000" />
+      <workItem from="1716157598062" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1687152511436</created>
