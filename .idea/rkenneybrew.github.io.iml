@@ -6,6 +6,8 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea/codeStyles" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/fastRequest" />
       <excludeFolder url="file://$MODULE_DIR$/src/html" />
+      <excludeFolder url="file://$MODULE_DIR$/.ssh" />
+      <excludeFolder url="file://$MODULE_DIR$/.fastRequest" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

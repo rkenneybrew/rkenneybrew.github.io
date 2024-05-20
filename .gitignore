@@ -1,7 +1,11 @@
 # System Files
 .DS_Store
+.git
+.gitignore
 .idea
 .fastRequest/config/fastRequestCurrentProjectEnvironment.json
+.ssh
+.fastRequest
 
 # Virtual & Environment Variables (.env & .virtualenv)
 .dotenv
@@ -13,4 +17,7 @@
 
 # Files & Directories
 node_modules/
+
+# Packages
+dbot-1.yml
 #yarn.lock

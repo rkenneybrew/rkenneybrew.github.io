@@ -1,3 +1,7 @@
+require('dotenv').config();
+// require('.env').config();
+
+
 const http = require('http');
 const port = 2288;
 
