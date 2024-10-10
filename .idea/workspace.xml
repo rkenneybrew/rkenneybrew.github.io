@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a84b606-7289-4501-a70f-061a95486c32" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rkenneybrew.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rkenneybrew.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.github.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.github.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <workItem from="1716174151303" duration="98000" />
       <workItem from="1716174253791" duration="2163000" />
       <workItem from="1716176425084" duration="12000" />
-      <workItem from="1716176441374" duration="607000" />
+      <workItem from="1716176441374" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1687152511436</created>
